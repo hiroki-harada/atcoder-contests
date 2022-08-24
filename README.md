@@ -7,9 +7,10 @@
 | B       | typo                     | 2022/03/20 |
 
 
-| No. 261 | title        | tried at   |
-| ------- | ------------ | ---------- |
-| A       | Intersection | 2022/08/21 |
+| No. 261 | title            | tried at   |
+| ------- | ---------------- | ---------- |
+| A       | Intersection     | 2022/08/21 |
+| B       | TournamentResult | 2022/08/24 |
 
 
 ## SpecialContest
