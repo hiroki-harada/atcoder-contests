@@ -13,6 +13,7 @@
 | B:  TournamentResult                          | 2022/08/24 |
 | C:  NewFolder(1)                              | 2022/08/28 |
 | D:  Flipping and Bonus                        | 2022/08/28 |
+| E:  Many Operations                           | 2022/09/03 |
 
 
 ## SpecialContest
