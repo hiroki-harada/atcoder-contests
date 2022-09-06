@@ -16,6 +16,13 @@
 | E:  Many Operations                           | 2022/09/03 |
 
 
+| [No. 262](https://atcoder.jp/contests/abc262) | tried at   |     |
+| --------------------------------------------- | ---------- | --- |
+| A:  World Cup                                 | 2022/09/03 | --- |
+| B:  Triangle (Easier)                         | 2022/09/06 |     |
+| C: Min Max Pair                               | 2022/09/05 |     |
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | tried at   |            |
 | ----------------------------------------------------- | ---------- | ---------- |
