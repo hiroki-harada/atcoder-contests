@@ -23,6 +23,13 @@
 | C: Min Max Pair                               | 2022/09/05 |     |
 
 
+| [No. 268](https://atcoder.jp/contests/abc268) | tried at   |     |
+| --------------------------------------------- | ---------- | --- |
+| A: Five Integers                              | 2022/09/10 | --- |
+| B: Prefix?                                    | 2022/09/10 | --- |
+| C: Chinese Restaurant                         | 2022/09/10 |     |
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | tried at   |            |
 | ----------------------------------------------------- | ---------- | ---------- |
