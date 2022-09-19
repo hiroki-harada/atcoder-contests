@@ -30,6 +30,13 @@
 | C: Chinese Restaurant                         | 2022/09/10 |     |
 
 
+| [No. 269](https://atcoder.jp/contests/abc269) | tried at   |     |
+| --------------------------------------------- | ---------- | --- |
+| A: Anyway Takahashi                           | 2022/09/17 | --- |
+| B: Rectangle Detection                        | 2022/09/17 | --- |
+| C: Submask                                    | 2022/09/17 |     |
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | tried at   |            |
 | ----------------------------------------------------- | ---------- | ---------- |
