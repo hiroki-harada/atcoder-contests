@@ -16,6 +16,13 @@
 [2-3. 分野別　初中級者が解くべき過去問精選 100 問](https://qiita.com/e869120/items/eb50fdaece12be418faa#2-3-%E5%88%86%E9%87%8E%E5%88%A5%E5%88%9D%E4%B8%AD%E7%B4%9A%E8%80%85%E3%81%8C%E8%A7%A3%E3%81%8F%E3%81%B9%E3%81%8D%E9%81%8E%E5%8E%BB%E5%95%8F%E7%B2%BE%E9%81%B8-100-%E5%95%8F)
 
 
+* アルゴリズム・AtCoder のための数学【前編：数学的知識編①】
+
+[2. これが分からないと問題が理解できない！ ～最重要ポイント 12 選～](https://qiita.com/e869120/items/b4a0493aac567c6a7240#2-%E3%81%93%E3%82%8C%E3%81%8C%E5%88%86%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E3%81%A8%E5%95%8F%E9%A1%8C%E3%81%8C%E7%90%86%E8%A7%A3%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84-%E6%9C%80%E9%87%8D%E8%A6%81%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-12-%E9%81%B8)
+
+[3. アルゴリズムと密接に関わる数学＜初級編＞](https://qiita.com/e869120/items/b4a0493aac567c6a7240#3-%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%A8%E5%AF%86%E6%8E%A5%E3%81%AB%E9%96%A2%E3%82%8F%E3%82%8B%E6%95%B0%E5%AD%A6%E5%88%9D%E7%B4%9A%E7%B7%A8)
+
+
 # contests result
 ## BeginnerContest
 | [No. 221](https://atcoder.jp/contests/abc221) | tried at   |
@@ -52,6 +59,14 @@
 | A: Anyway Takahashi                           | 2022/09/17 | --- |
 | B: Rectangle Detection                        | 2022/09/17 | --- |
 | C: Submask                                    | 2022/09/17 |     |
+
+
+| [No. 270](https://atcoder.jp/contests/abc270) | type     | tried at   |     |
+| --------------------------------------------- | -------- | ---------- | --- |
+| A: 1-2-4 Test                                 | bit演算  | 2022/09/24 | --- |
+| B: Hammer                                     | 場合分け | 2022/09/24 |     |
+| C: Simple path                                | DFS      |            |     |
+
 
 
 ## SpecialContest
