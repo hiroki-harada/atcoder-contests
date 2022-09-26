@@ -77,9 +77,9 @@
 | ABC081A:    Placing Marbles                           | 2021/08/01 | 2022/09/21 | ---------- |
 | ABC081B:    Shift only                                | 2021/08/15 | 2022/09/24 | ---------- |
 | ABC087B:    Coins                                     | 2021/09/06 | 2021/09/25 | 2022/09/24 |
-| ABC083B:    Some Sums                                 | 2021/09/20 |            |            |
-| ABC088B:    Card Game for Two                         | 2021/09/10 |            |            |
+| ABC083B:    Some Sums                                 | 2021/09/20 | 2022/09/25 |            |
+| ABC088B:    Card Game for Two                         | 2021/09/10 | 2022/09/26 |            |
 | ABC085B:    Kagami Mochi                              | 2021/08/06 | 2021/08/15 |            |
 | ABC085C:    Otoshidama                                | 2021/09/20 |            |            |
-| ABC049C:    白昼夢                                    | 2021/08/15 |            |            |
+| ABC049C:    Day Dream                                 | 2021/08/15 |            |            |
 | ABC086C:    Traveling                                 | 2021/09/25 |            |            |
