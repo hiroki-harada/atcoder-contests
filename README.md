@@ -68,6 +68,14 @@
 | C: Simple path                                | DFS      |            |     |
 
 
+| [No. 271](https://atcoder.jp/contests/abc271) | type | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | --- |
+| A: 484558                                     |      | 2022/10/01 | --- |
+| B: Maintain Multiple Sequences                |      | 2022/10/01 | --- |
+| C: Manga                                      |      | 2022/10/01 |     |
+* recommended answer
+  - C: https://atcoder.jp/contests/abc271/submissions/35323281
+
 
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type       | tried at   |            |            |            |
