@@ -77,6 +77,13 @@
   - C: https://atcoder.jp/contests/abc271/submissions/35323281
 
 
+| [No. 272](https://atcoder.jp/contests/abc272) | type | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | --- |
+| A: Integer Sum                                |      | 2022/10/08 | --- |
+| B: Everyone is Friends                        |      | 2022/10/08 |     |
+| C: Max Even                                   |      | 2022/10/08 |     |
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
 | ----------------------------------------------------- | -------------- | ---------- | ---------- | ---------- | ---------- |
