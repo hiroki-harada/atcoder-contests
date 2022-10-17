@@ -51,6 +51,7 @@
 | [No. 263](https://atcoder.jp/contests/abc263) | type       | tried at   |     |
 | --------------------------------------------- | ---------- | ---------- | --- |
 | A: Full House                                 | 条件マッチ | 2022/10/15 | --- |
+| B: Ancestor                                   | 条件マッチ | 2022/10/17 |     |
 
 
 | [No. 268](https://atcoder.jp/contests/abc268) | tried at   |     |
