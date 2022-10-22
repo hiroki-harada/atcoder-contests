@@ -112,6 +112,12 @@
 | B: Broken Rounding                            | 組み合わせ | 2022/10/17 |     |
 
 
+| [No. 274](https://atcoder.jp/contests/abc274) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Batting Average                            | 算数       | 2022/10/22 | --- |
+| B: Line Sensor                                | 単純ループ | 2022/10/22 | --- |
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
 | ----------------------------------------------------- | -------------- | ---------- | ---------- | ---------- | ---------- |
