@@ -119,6 +119,11 @@
 | C: Ameba                                      | 単純ループ | 2022/10/25 |     |
 
 
+| [No. 275](https://atcoder.jp/contests/abc275) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Find Takahashi                            | 算数       | 2022/10/31 | --- |
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
 | ----------------------------------------------------- | -------------- | ---------- | ---------- | ---------- | ---------- |
