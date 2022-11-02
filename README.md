@@ -46,7 +46,6 @@
 | A: World Cup                                  |      | 2022/09/03 | --- |
 | B: Triangle (Easier)                          |      | 2022/09/06 |     |
 | C: Min Max Pair                               |      | 2022/09/05 |     |
-| D: I Hate Non-integer Number                  |      | 2022/10/xx |     |
 
 
 | [No. 263](https://atcoder.jp/contests/abc263) | type       | tried at   |     |
