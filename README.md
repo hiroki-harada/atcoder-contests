@@ -25,10 +25,11 @@
 
 # contests result
 ## BeginnerContest
-| [No. 221](https://atcoder.jp/contests/abc221) | tried at   |
-| --------------------------------------------- | ---------- |
-| A:  Seismic magnitude scales                  | 2021/10/14 |
-| B:  typo                                      | 2022/03/20 |
+| [No. 221](https://atcoder.jp/contests/abc221) | type   | tried at         |
+| --------------------------------------------- | ------ | ---------------- |
+| A:  Seismic magnitude scales                  |        | 2021/10/14       |
+| B:  typo                                      |        | 2022/03/20       |
+| C:  Select Mul                                | 全探索 | 2022/11/02(保留) |
 
 
 | [No. 261](https://atcoder.jp/contests/abc261) | tried at   |
