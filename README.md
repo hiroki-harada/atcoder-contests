@@ -59,9 +59,10 @@
 | A: "atcoder".substr()                         | 抽出       | 2022/10/18 | --- |
 
 
-| [No. 265](https://atcoder.jp/contests/abc265) | type     | tried at   |     |
-| --------------------------------------------- | -------- | ---------- | --- |
-| A: Apple                                      | 条件一致 | 2022/10/20 | --- |
+| [No. 265](https://atcoder.jp/contests/abc265) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Apple                                      | 条件一致   | 2022/10/20 | --- |
+| B: Explore                                    | 単純ループ | 2022/11/02 | --- |
 
 
 | [No. 266](https://atcoder.jp/contests/abc266) | type | tried at   |     |
