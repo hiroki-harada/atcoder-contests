@@ -32,6 +32,11 @@
 | C:  Select Mul                                | 全探索 | 2022/11/02(保留) |
 
 
+| [No. 260](https://atcoder.jp/contests/abc260) | type         | tried at   |
+| --------------------------------------------- | ------------ | ---------- |
+| A: A Unique Letter                            | テキスト処理 | 2022/11/07 |
+
+
 | [No. 261](https://atcoder.jp/contests/abc261) | tried at   |
 | --------------------------------------------- | ---------- |
 | A:  Intersection                              | 2022/08/21 |
