@@ -57,6 +57,7 @@
 | --------------------------------------------- | ---------- | ---------- | --- |
 | A: Full House                                 | 条件マッチ | 2022/10/15 | --- |
 | B: Ancestor                                   | 条件マッチ | 2022/10/17 |     |
+| C: MonotonicallyIncreasing                    | DFS        | 2022/11/09 |     |
 
 
 | [No. 264](https://atcoder.jp/contests/abc264) | type       | tried at   |     |
