@@ -140,6 +140,12 @@
 | C: Previous Permutation                       | 順列       | 2022/11/06 |     |
 
 
+| [No. 277](https://atcoder.jp/contests/abc277) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: ^{-1}                                      | 単純ループ | 2022/11/12 | --- |
+| B: Playing Cards Validation                   | 単純ループ | 2022/11/12 | --- |
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
 | ----------------------------------------------------- | -------------- | ---------- | ---------- | ---------- | ---------- |
