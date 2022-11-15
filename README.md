@@ -75,6 +75,7 @@
 | [No. 266](https://atcoder.jp/contests/abc266) | type | tried at   |     |
 | --------------------------------------------- | ---- | ---------- | --- |
 | A: Middle Letter                              | 抽出 | 2022/10/21 | --- |
+| B: Modulo Number                              | 算数 | 2022/11/15 | --- |
 
 
 | [No. 267](https://atcoder.jp/contests/abc267) | type | tried at   |     |
