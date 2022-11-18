@@ -172,7 +172,10 @@
 | ABC086C:    Traveling                                 |                | 2021/09/25 | 2022/10/09 |            |            |
 
 
-| [Typical90](https://atcoder.jp/contests/typical90) | type   | tried at   |     |
-| -------------------------------------------------- | ------ | ---------- | --- |
-| 004: Cross Sum                                     | 累積和 | 2022/11/09 |     |
-| 010: Score Sum Queries                             | 累積和 | 2022/11/12 |     |
+| [Typical90](https://atcoder.jp/contests/typical90) | type       | tried at   |     |
+| -------------------------------------------------- | ---------- | ---------- | --- |
+| 004: Cross Sum                                     | 累積和     | 2022/11/09 |     |
+| 010: Score Sum Queries                             | 累積和     | 2022/11/12 |     |
+| 022: Cubic Cake                                    | GCD        | 2022/11/18 |     |
+| 024: Select +／- One                               | 単純ループ | 2022/11/18 | --- |
+| 027: Sign Up Requests                              | 単純ループ | 2022/11/18 | --- |
