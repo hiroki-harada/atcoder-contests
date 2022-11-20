@@ -155,6 +155,11 @@
 | C: Ladder Takahashi                           | DFS/BFS    | 2022/11/13 |     |
 
 
+| [No. 278](https://atcoder.jp/contests/abc278) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Shift                                      | 単純ループ | 2022/11/21 | --- |
+
+
 
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
