@@ -155,6 +155,13 @@
 | C: Ladder Takahashi                           | DFS/BFS    | 2022/11/13 |     |
 
 
+| [No. 278](https://atcoder.jp/contests/abc278) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Shift                                      | 単純ループ | 2022/11/21 | --- |
+| B: Misjudge the Time                          | 組み合わせ | 2022/11/21 |     |
+| C: FF                                         | 単純ループ | 2022/11/21 |     |
+
+
 
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
@@ -172,7 +179,10 @@
 | ABC086C:    Traveling                                 |                | 2021/09/25 | 2022/10/09 |            |            |
 
 
-| [Typical90](https://atcoder.jp/contests/typical90) | type   | tried at   |     |
-| -------------------------------------------------- | ------ | ---------- | --- |
-| 004: Cross Sum                                     | 累積和 | 2022/11/09 |     |
-| 010: Score Sum Queries                             | 累積和 | 2022/11/12 |     |
+| [Typical90](https://atcoder.jp/contests/typical90) | type       | tried at   |     |
+| -------------------------------------------------- | ---------- | ---------- | --- |
+| 004: Cross Sum                                     | 累積和     | 2022/11/09 |     |
+| 010: Score Sum Queries                             | 累積和     | 2022/11/12 |     |
+| 022: Cubic Cake                                    | GCD        | 2022/11/18 |     |
+| 024: Select +／- One                               | 単純ループ | 2022/11/18 | --- |
+| 027: Sign Up Requests                              | 単純ループ | 2022/11/18 | --- |
