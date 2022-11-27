@@ -8,12 +8,11 @@ public class Random {
         int w = io.nextInt();
         long[] s = new long[h];
         long[] t = new long[h];
-        for (int i = 0; i < h; i++) {
-            s[i] = io.nextStr().chars().mapToLong(str -> str == '#' ? 1l : 0l).sum();
-        }
-        for (int i = 0; i < h; i++) {
-            t[i] = io.nextStr().chars().mapToLong(str -> str == '#' ? 1l : 0l).sum();
-        }
+
+        // # -> 1, . -> 0 に変換して、各行の和を取る
+        // 行の和がそれぞれ等しい場合、列を入れ替えて等しいとみなせる
+        for (int i = 0; i < h; i++) s[i] = io.nextStr().chars().mapToLong(str -> str == '#' ? 1l : 0l).sum();
+        for (int i = 0; i < h; i++) t[i] = io.nextStr().chars().mapToLong(str -> str == '#' ? 1l : 0l).sum();
         io.close();
 
         for (int i = 0; i < h; i++) {
