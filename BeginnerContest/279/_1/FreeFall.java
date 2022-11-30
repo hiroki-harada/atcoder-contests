@@ -8,16 +8,19 @@ public class FreeFall {
         long b = io.nextLong();
         io.close();
 
-        long cnt = calculateLeatsCntOperates(a, b);
-        cnt = cnt > 0 ? cnt : 0l;
-        io.output(calculateFreeFallTime(a, b, cnt));
+        double cnt = calculateLeatsCntOperates(a, b);
+        // cnt 近傍の2整数のうち、落下時間が小さくなる方を出力
+        io.output(Math.min(
+            calculateFreeFallTime(a, b, Math.ceil(cnt)),
+            calculateFreeFallTime(a, b, Math.floor(cnt))
+        ));
     }
 
-    private static double calculateFreeFallTime(long a, long b, long cntOperates) {
-        return 1.0d * (b*cntOperates + a/Math.sqrt(1.0d + cntOperates));
+    private static double calculateFreeFallTime(long a, long b, double cntOperates) {
+        return 1d*b*cntOperates + 1d*a/Math.sqrt(1d + cntOperates);
     }
-    private static long calculateLeatsCntOperates(long a, long b) {
-        return Math.round(Math.pow(2.0d*b/a, -2.0d/3.0d) - 1.0d);
+    private static double calculateLeatsCntOperates(long a, long b) {
+        return Math.pow(2d*b/(1d*a), -2d/3d) - 1d;
     }
 
     private static class IOHandler {
