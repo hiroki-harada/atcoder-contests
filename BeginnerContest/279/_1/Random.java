@@ -6,17 +6,28 @@ public class Random {
         IOHandler io = new IOHandler();
         int h = io.nextInt();
         int w = io.nextInt();
-        long[] s = new long[h];
-        long[] t = new long[h];
-
-        // # -> 1, . -> 0 に変換して、各行の和を取る
-        // 行の和がそれぞれ等しい場合、列を入れ替えて等しいとみなせる
-        for (int i = 0; i < h; i++) s[i] = io.nextStr().chars().mapToLong(str -> str == '#' ? 1l : 0l).sum();
-        for (int i = 0; i < h; i++) t[i] = io.nextStr().chars().mapToLong(str -> str == '#' ? 1l : 0l).sum();
+        String[] s = io.nextArray(h);
+        String[] t = io.nextArray(h);
         io.close();
 
-        for (int i = 0; i < h; i++) {
-            if (s[i] != t[i]) {
+        // 行と列を入れ替え、ソート
+        List<String> sList = new ArrayList<>();
+        List<String> tList = new ArrayList<>();
+        for (int i = 0; i < w; i++) {
+            StringBuilder sSb = new StringBuilder();
+            StringBuilder tSb = new StringBuilder();
+            for (int j = 0; j < h; j++) {
+                sSb.append(s[j].charAt(i));
+                tSb.append(t[j].charAt(i));
+            }
+            sList.add(sSb.toString());
+            tList.add(tSb.toString());
+        }
+        Collections.sort(sList);
+        Collections.sort(tList);
+
+        for (int i = 0; i < w; i++) {
+            if (!sList.get(i).equals(tList.get(i))) {
                 io.output("No");
                 return;
             }
@@ -31,7 +42,11 @@ public class Random {
 
         private int nextInt() {return this.sc.nextInt();}
 
-        private String nextStr() {return this.sc.next();}
+        private String[] nextArray(int size) {
+            String[] array = new String[size];
+            for (int i = 0; i < size; i++) array[i] = this.sc.next();
+            return array;
+        }
 
         private <T> void output(T result) {System.out.println(result);}
     }
