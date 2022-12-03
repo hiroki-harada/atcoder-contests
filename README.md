@@ -176,6 +176,13 @@
 | D: Freefall                                   | 微積分     | 2022/11/29 |     |
 
 
+| [No. 280](https://atcoder.jp/contests/abc280) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Pawn on a Grid                             | 文字列操作 | 2022/12/03 | --- |
+| B: Inverse Prefix Sum                         | 単純ループ | 2022/12/03 | --- |
+| C: Extra Character                            | 単純ループ | 2022/12/03 | --- |
+
+
 
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
