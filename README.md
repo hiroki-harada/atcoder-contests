@@ -193,6 +193,7 @@
 | A: Count Down                                 | 算数         | 2022/12/10 | --- |
 | B: Sandwich Number                            | 標準メソッド | 2022/12/10 | --- |
 | C: Circular Playlist                          | 累積和       | 2022/12/10 | --- |
+| D: Max Multiple                               | DP          | 2022/12/10 |     |
 
 
 
