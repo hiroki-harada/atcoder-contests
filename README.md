@@ -181,11 +181,12 @@
 | D: Freefall                                   | 微積分     | 2022/11/29 |     |
 
 
-| [No. 280](https://atcoder.jp/contests/abc280) | type       | tried at   |     |
-| --------------------------------------------- | ---------- | ---------- | --- |
-| A: Pawn on a Grid                             | 文字列操作 | 2022/12/03 | --- |
-| B: Inverse Prefix Sum                         | 単純ループ | 2022/12/03 | --- |
-| C: Extra Character                            | 単純ループ | 2022/12/03 | --- |
+| [No. 280](https://atcoder.jp/contests/abc280) | type       | tried at         |     |
+| --------------------------------------------- | ---------- | ---------------- | --- |
+| A: Pawn on a Grid                             | 文字列操作 | 2022/12/03       | --- |
+| B: Inverse Prefix Sum                         | 単純ループ | 2022/12/03       | --- |
+| C: Extra Character                            | 単純ループ | 2022/12/03       | --- |
+| D: Factorial and Multiple                     |            | 2022/12/03(保留) |     |
 
 
 | [No. 281](https://atcoder.jp/contests/abc281) | type         | tried at   |     |
@@ -193,7 +194,7 @@
 | A: Count Down                                 | 算数         | 2022/12/10 | --- |
 | B: Sandwich Number                            | 標準メソッド | 2022/12/10 | --- |
 | C: Circular Playlist                          | 累積和       | 2022/12/10 | --- |
-| D: Max Multiple                               | DP          | 2022/12/10 |     |
+| D: Max Multiple                               | DP           | 2022/12/10 |     |
 
 
 

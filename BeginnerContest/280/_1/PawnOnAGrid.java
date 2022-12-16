@@ -5,7 +5,7 @@ public class PawnOnAGrid {
 
         IOHandler io = new IOHandler();
         int h = io.nextInt();
-        int w = io.nextInt();
+        io.nextInt(); // w は読み捨てる
 
         long result = 0;
         for (int i = 0; i < h; i++) {
