@@ -197,6 +197,11 @@
 | D: Max Multiple                               | DP           | 2022/12/10 |     |
 
 
+| [No. 282](https://atcoder.jp/contests/abc282) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Generalized ABC                            | 算数       | 2022/12/17 | --- |
+| B: Let's Get a Perfect Score                  | 単純ループ | 2022/12/17 | --- |
+| C: String Delimiter                           | 累積和     | 2022/12/17 | --- |
 
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
