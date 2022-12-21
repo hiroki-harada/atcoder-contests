@@ -41,6 +41,7 @@
 | [No. 223](https://atcoder.jp/contests/abc223) | type         | tried at   |            |
 | --------------------------------------------- | ------------ | ---------- | ---------- |
 | A: Exact Price                                | 標準メソッド | 2022/12/20 | ---------- |
+| B: String Shifting                            | 単純ループ   | 2022/12/22 | ---------- |
 
 
 | [No. 259](https://atcoder.jp/contests/abc259) | type | tried at   |            |
