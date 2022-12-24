@@ -209,6 +209,15 @@
 | B: Let's Get a Perfect Score                  | 単純ループ | 2022/12/17 | --- |
 | C: String Delimiter                           | 累積和     | 2022/12/17 | --- |
 
+
+| [No. 283](https://atcoder.jp/contests/abc283) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Power                                      | 算数       | 2022/12/24 | --- |
+| B: First Query Problem                        | 単純ループ | 2022/12/24 | --- |
+| C: Cash Register                              | 文字列操作 | 2022/12/24 | --- |
+
+
+
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
 | ----------------------------------------------------- | -------------- | ---------- | ---------- | ---------- | ---------- |
