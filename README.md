@@ -254,3 +254,8 @@
 | 024: Select +／- One                               | 単純ループ | 2022/11/18 | --- |
 | 027: Sign Up Requests                              | 単純ループ | 2022/11/18 | --- |
 | 033: Not Too Bright                                | 工夫       | 2022/11/24 | --- |
+
+
+| [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type  | tried at   |     |
+| ------------------------------------------------------- | ----- | ---------- | --- |
+| A61: Adjacent Vertices                                  | graph | 2023/01/01 |     |
