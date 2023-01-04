@@ -259,3 +259,4 @@
 | [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type  | tried at   |     |
 | ------------------------------------------------------- | ----- | ---------- | --- |
 | A61: Adjacent Vertices                                  | graph | 2023/01/01 |     |
+| B61: Influencer                                         | graph | 2023/01/04 |     |
