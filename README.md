@@ -229,6 +229,13 @@
 | D: Scope                                      | 文字列操作 | 2022/12/25 |     |
 
 
+| [No. 284](https://atcoder.jp/contests/abc284) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Sequence of Strings                        | 単純ループ | 2023/01/07 | --- |
+| B: Multi Test Cases                           | 単純ループ | 2023/01/07 | --- |
+| C: Count Connected Components                 | DFS/BFS    | 2023/01/07 |     |
+
+
 
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
