@@ -234,6 +234,7 @@
 | A: Sequence of Strings                        | 単純ループ | 2023/01/07 | --- |
 | B: Multi Test Cases                           | 単純ループ | 2023/01/07 | --- |
 | C: Count Connected Components                 | DFS/BFS    | 2023/01/07 |     |
+| D: Happy New Year 2023                        | 整数論     | 2023/01/09 |     |
 
 
 

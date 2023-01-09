@@ -33,7 +33,7 @@ public class CountConnectedComponents {
     private static void dfs(int n, boolean[] isVisited, List<List<Integer>> graph) {
         isVisited[n] = true;
         for (Integer i : graph.get(n)) {
-            if (isVisited[i]) break;
+            if (isVisited[i]) continue;
             dfs(i, isVisited, graph);
         }
     }
