@@ -269,3 +269,4 @@
 | A61: Adjacent Vertices                                  | graph | 2023/01/01 |     |
 | A62: Depth First Search                                 | DFS   | 2023/01/12 |     |
 | B61: Influencer                                         | graph | 2023/01/04 |     |
+| B62: Print a Path                                       | DFS   | 2023/01/14 |     |
