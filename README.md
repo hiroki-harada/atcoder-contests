@@ -237,6 +237,12 @@
 | D: Happy New Year 2023                        | 整数論     | 2023/01/09 |     |
 
 
+| [No. 285](https://atcoder.jp/contests/abc285) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Edge Checker 2                             | 算数       | 2023/01/15 | --- |
+| B: Longest Uncommon Prefix                    | 単純ループ | 2023/01/15 |     |
+
+
 
 ## SpecialContest
 | [BeginnersSelection](https://atcoder.jp/contests/abs) | type           | tried at   |            |            |            |
