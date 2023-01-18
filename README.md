@@ -23,6 +23,21 @@
 [3. アルゴリズムと密接に関わる数学＜初級編＞](https://qiita.com/e869120/items/b4a0493aac567c6a7240#3-%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%A8%E5%AF%86%E6%8E%A5%E3%81%AB%E9%96%A2%E3%82%8F%E3%82%8B%E6%95%B0%E5%AD%A6%E5%88%9D%E7%B4%9A%E7%B7%A8)
 
 
+
+# rank
+| color      | rank  |
+| :--------- | :---: |
+| red        |   S   |
+| orange     |   A   |
+| yellow     |   B   |
+| blue       |   C   |
+| light blue |   D   |
+| green      |   E   |
+| brown      |   F   |
+| gray       |   G   |
+
+
+
 # contests result
 ## BeginnerContest
 | [No. 221](https://atcoder.jp/contests/abc221) | type   | tried at         |
@@ -237,11 +252,11 @@
 | D: Happy New Year 2023                        | 整数論     | 2023/01/09 |     |
 
 
-| [No. 285](https://atcoder.jp/contests/abc285) | type       | tried at   |     |
-| --------------------------------------------- | ---------- | ---------- | --- |
-| A: Edge Checker 2                             | 算数       | 2023/01/15 | --- |
-| B: Longest Uncommon Prefix                    | 単純ループ | 2023/01/15 |     |
-
+| [No. 285](https://atcoder.jp/contests/abc285) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Edge Checker 2                             | G-   | 算数       | 2023/01/15 | --- |
+| B: Longest Uncommon Prefix                    | G-   | 単純ループ | 2023/01/15 |     |
+| C: abc285_brutmhyhiizp                        | G    | 文字列操作 | 2023/01/15 |     |
 
 
 ## SpecialContest
