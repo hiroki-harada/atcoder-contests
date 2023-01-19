@@ -252,11 +252,12 @@
 | D: Happy New Year 2023                        | 整数論     | 2023/01/09 |     |
 
 
-| [No. 285](https://atcoder.jp/contests/abc285) | rank | type       | tried at   |     |
-| --------------------------------------------- | ---- | ---------- | ---------- | --- |
-| A: Edge Checker 2                             | G-   | 算数       | 2023/01/15 | --- |
-| B: Longest Uncommon Prefix                    | G-   | 単純ループ | 2023/01/15 |     |
-| C: abc285_brutmhyhiizp                        | G    | 文字列操作 | 2023/01/15 |     |
+| [No. 285](https://atcoder.jp/contests/abc285) | rank | type               | tried at   |     |
+| --------------------------------------------- | ---- | ------------------ | ---------- | --- |
+| A: Edge Checker 2                             | G-   | 算数               | 2023/01/15 | --- |
+| B: Longest Uncommon Prefix                    | G-   | 単純ループ         | 2023/01/15 |     |
+| C: abc285_brutmhyhiizp                        | G    | 文字列操作         | 2023/01/15 |     |
+| D: Change Usernames                           | F+   | DFS/BFS/Union-Find | 2023/01/19 |     |
 
 
 ## SpecialContest
