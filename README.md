@@ -236,20 +236,20 @@
 | C: String Delimiter                           | 累積和     | 2022/12/17 | --- |
 
 
-| [No. 283](https://atcoder.jp/contests/abc283) | type       | tried at   |     |
-| --------------------------------------------- | ---------- | ---------- | --- |
-| A: Power                                      | 算数       | 2022/12/24 | --- |
-| B: First Query Problem                        | 単純ループ | 2022/12/24 | --- |
-| C: Cash Register                              | 文字列操作 | 2022/12/24 | --- |
-| D: Scope                                      | 文字列操作 | 2022/12/25 |     |
+| [No. 283](https://atcoder.jp/contests/abc283) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Power                                      | G-   | 算数       | 2022/12/24 | --- |
+| B: First Query Problem                        | G-   | 単純ループ | 2022/12/24 | --- |
+| C: Cash Register                              | G-   | 文字列操作 | 2022/12/24 | --- |
+| D: Scope                                      | F-   | 文字列操作 | 2022/12/25 |     |
 
 
-| [No. 284](https://atcoder.jp/contests/abc284) | type       | tried at   |     |
-| --------------------------------------------- | ---------- | ---------- | --- |
-| A: Sequence of Strings                        | 単純ループ | 2023/01/07 | --- |
-| B: Multi Test Cases                           | 単純ループ | 2023/01/07 | --- |
-| C: Count Connected Components                 | DFS/BFS    | 2023/01/07 |     |
-| D: Happy New Year 2023                        | 整数論     | 2023/01/09 |     |
+| [No. 284](https://atcoder.jp/contests/abc284) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Sequence of Strings                        | G-   | 単純ループ | 2023/01/07 | --- |
+| B: Multi Test Cases                           | G-   | 単純ループ | 2023/01/07 | --- |
+| C: Count Connected Components                 | G    | DFS/BFS    | 2023/01/07 |     |
+| D: Happy New Year 2023                        | F    | 整数論     | 2023/01/09 |     |
 
 
 | [No. 285](https://atcoder.jp/contests/abc285) | rank | type               | tried at   |     |
@@ -260,10 +260,14 @@
 | D: Change Usernames                           | F+   | DFS/BFS/Union-Find | 2023/01/19 |     |
 
 
-| [No. 285](https://atcoder.jp/contests/abc286) | rank | type       | tried at   |     |
+| [No. 286](https://atcoder.jp/contests/abc286) | rank | type       | tried at   |     |
 | --------------------------------------------- | ---- | ---------- | ---------- | --- |
-| A: Range Swap                                 |      | 算数       | 2023/01/21 | --- |
-| B: Cat                                        |      | 文字列操作 | 2023/01/21 | --- |
+| A: Range Swap                                 | G-   | 算数       | 2023/01/21 | --- |
+| B: Cat                                        | G-   | 文字列操作 | 2023/01/21 | --- |
+| C: Rotate and Palindrome                      | F    |            | 2023/01/21 |     |
+| D: Money in Hand                              | F    |            | 2023/01/21 |     |
+
+
 
 
 
