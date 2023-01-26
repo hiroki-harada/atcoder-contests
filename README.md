@@ -198,11 +198,12 @@
 | C: Ladder Takahashi                           | DFS/BFS    | 2022/11/13 |     |
 
 
-| [No. 278](https://atcoder.jp/contests/abc278) | type       | tried at   |     |
-| --------------------------------------------- | ---------- | ---------- | --- |
-| A: Shift                                      | 単純ループ | 2022/11/21 | --- |
-| B: Misjudge the Time                          | 組み合わせ | 2022/11/21 |     |
-| C: FF                                         | 単純ループ | 2022/11/21 |     |
+| [No. 278](https://atcoder.jp/contests/abc278) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Shift                                      | G-   | 単純ループ | 2022/11/21 | --- |
+| B: Misjudge the Time                          | G-   | 組み合わせ | 2022/11/21 |     |
+| C: FF                                         | G+   | 単純ループ | 2022/11/21 |     |
+| D: All Assign Point Add                       | F-   | 微積分     | 2022/11/29 |     |
 
 
 | [No. 279](https://atcoder.jp/contests/abc279) | type       | tried at   |     |
