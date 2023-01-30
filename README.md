@@ -39,6 +39,14 @@
 
 
 # contests result
+## RegularContest
+| [No. 153](https://atcoder.jp/contests/arc153) | type | tried at   |
+| --------------------------------------------- | ---- | ---------- |
+| A: 	AABCDDEFE                                 |      | 2023/01/14 |
+| B:                                            |      | 2023/01/14 |
+| C:                                            |      | 2023/01/14 |
+
+
 ## BeginnerContest
 | [No. 221](https://atcoder.jp/contests/abc221) | type   | tried at         |
 | --------------------------------------------- | ------ | ---------------- |
@@ -203,7 +211,7 @@
 | A: Shift                                      | G-   | 単純ループ | 2022/11/21 | --- |
 | B: Misjudge the Time                          | G-   | 組み合わせ | 2022/11/21 |     |
 | C: FF                                         | G+   | 単純ループ | 2022/11/21 |     |
-| D: All Assign Point Add                       | F-   | 微積分     | 2022/11/29 |     |
+| D: All Assign Point Add                       | F-   | 工夫       | 2023/01/29 |     |
 
 
 | [No. 279](https://atcoder.jp/contests/abc279) | type       | tried at   |     |
