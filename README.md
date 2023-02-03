@@ -131,9 +131,12 @@
 | B: Modulo Number                              | 算数 | 2022/11/15 | --- |
 
 
-| [No. 267](https://atcoder.jp/contests/abc267) | type | tried at   |     |
-| --------------------------------------------- | ---- | ---------- | --- |
-| A: Saturday                                   | 算数 | 2022/11/14 | --- |
+| [No. 267](https://atcoder.jp/contests/abc267) | rank | type   | tried at   |     |
+| --------------------------------------------- | ---- | ------ | ---------- | --- |
+| A: Saturday                                   | G-   | 算数   | 2022/11/14 | --- |
+| B: Split                                      | G    | 全探査 | 2023/01/23 |     |
+| C: Index × A(Continuous ver.)                 | F-   | DP     | 2023/02/01 |     |
+| D:                                            | E-   | 算数   | 2023/01/23 |     |
 
 
 | [No. 268](https://atcoder.jp/contests/abc268) | tried at   |     |
