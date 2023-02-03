@@ -15,21 +15,20 @@ public class Split {
         boolean[] isKeepStand = new boolean[7];
         isKeepStand[0] = s[6] == '1';
         isKeepStand[1] = s[3] == '1';
-        isKeepStand[2] = s[1] == '1' || s[1] == '1';
+        isKeepStand[2] = s[1] == '1' || s[7] == '1';
         isKeepStand[3] = s[4] == '1';
         isKeepStand[4] = s[2] == '1' || s[8] == '1';
         isKeepStand[5] = s[5] == '1';
         isKeepStand[6] = s[9] == '1';
 
         // 異なる2列を選ぶ
-        for (int i = 0; i < 7; i++) {
+        for (int i = 1; i < 7; i++) {
             for (int j = 0; j < i; j++) {
 
                 // 2列に立っているピンが存在する場合
-
                 if (isKeepStand[i] && isKeepStand[j]) {
-                    // 2列に立っているピンが存在する場合
-                    for (int k = j + 1; k < i; k++) {
+                    // 2列の間で、ピンが立っている列
+                    for (int k = j+1; k < i; k++) {
                         if (!isKeepStand[k]) {
                             io.output("Yes");
                             return;
