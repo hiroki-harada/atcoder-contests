@@ -23,13 +23,64 @@
 [3. アルゴリズムと密接に関わる数学＜初級編＞](https://qiita.com/e869120/items/b4a0493aac567c6a7240#3-%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%A8%E5%AF%86%E6%8E%A5%E3%81%AB%E9%96%A2%E3%82%8F%E3%82%8B%E6%95%B0%E5%AD%A6%E5%88%9D%E7%B4%9A%E7%B7%A8)
 
 
+
+# rank
+| color      | rank  |
+| :--------- | :---: |
+| red        |   S   |
+| orange     |   A   |
+| yellow     |   B   |
+| blue       |   C   |
+| light blue |   D   |
+| green      |   E   |
+| brown      |   F   |
+| gray       |   G   |
+
+
+
 # contests result
+## RegularContest
+| [No. 153](https://atcoder.jp/contests/arc153) | type | tried at   |
+| --------------------------------------------- | ---- | ---------- |
+| A: 	AABCDDEFE                                 |      | 2023/01/14 |
+| B:                                            |      | 2023/01/14 |
+| C:                                            |      | 2023/01/14 |
+
+
 ## BeginnerContest
 | [No. 221](https://atcoder.jp/contests/abc221) | type   | tried at         |
 | --------------------------------------------- | ------ | ---------------- |
 | A:  Seismic magnitude scales                  |        | 2021/10/14       |
 | B:  typo                                      |        | 2022/03/20       |
 | C:  Select Mul                                | 全探索 | 2022/11/02(保留) |
+
+
+| [No. 222](https://atcoder.jp/contests/abc222) | type         | tried at   |            |
+| --------------------------------------------- | ------------ | ---------- | ---------- |
+| A: Four Digits                                | 標準メソッド | 2022/12/02 | ---------- |
+| B: Failing Grade                              | 算数         | 2022/12/02 | ---------- |
+
+
+| [No. 223](https://atcoder.jp/contests/abc223) | type         | tried at   |            |
+| --------------------------------------------- | ------------ | ---------- | ---------- |
+| A: Exact Price                                | 標準メソッド | 2022/12/20 | ---------- |
+| B: String Shifting                            | 単純ループ   | 2022/12/22 | ---------- |
+
+
+| [No. 224](https://atcoder.jp/contests/abc224) | type         | tried at   |            |
+| --------------------------------------------- | ------------ | ---------- | ---------- |
+| A: Tires                                      | 標準メソッド | 2021/xx/xx | ---------- |
+| B: Mongeness                                  | 単純ループ   | 2021/xx/xx | ---------- |
+| C: Triangle?                                  | permutation  | 2021/xx/xx | ---------- |
+
+
+| [No. 225](https://atcoder.jp/contests/abc225) | type       | tried at   |            |
+| --------------------------------------------- | ---------- | ---------- | ---------- |
+| A: Distinct Strings                           | 算数       | 2022/12/30 | ---------- |
+
+| [No. 259](https://atcoder.jp/contests/abc259) | type | tried at   |            |
+| --------------------------------------------- | ---- | ---------- | ---------- |
+| A: Growth Record                              | 算数 | 2022/12/09 | ---------- |
 
 
 | [No. 260](https://atcoder.jp/contests/abc260) | type         | tried at   |
@@ -155,11 +206,81 @@
 | C: Ladder Takahashi                           | DFS/BFS    | 2022/11/13 |     |
 
 
-| [No. 278](https://atcoder.jp/contests/abc278) | type       | tried at   |     |
+| [No. 278](https://atcoder.jp/contests/abc278) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Shift                                      | G-   | 単純ループ | 2022/11/21 | --- |
+| B: Misjudge the Time                          | G-   | 組み合わせ | 2022/11/21 |     |
+| C: FF                                         | G+   | 単純ループ | 2022/11/21 |     |
+| D: All Assign Point Add                       | F-   | 工夫       | 2023/01/29 |     |
+
+
+| [No. 279](https://atcoder.jp/contests/abc279) | type       | tried at   |     |
 | --------------------------------------------- | ---------- | ---------- | --- |
-| A: Shift                                      | 単純ループ | 2022/11/21 | --- |
-| B: Misjudge the Time                          | 組み合わせ | 2022/11/21 |     |
-| C: FF                                         | 単純ループ | 2022/11/21 |     |
+| A: wwwvvvvvv                                  | 算数       | 2022/11/26 | --- |
+| B: LOOKUP                                     | 部文字列   | 2022/11/26 | --- |
+| C: RANDOM                                     | 単純ループ | 2022/11/26 | --- |
+| D: Freefall                                   | 微積分     | 2022/11/29 |     |
+
+
+| [No. 280](https://atcoder.jp/contests/abc280) | type       | tried at         |     |
+| --------------------------------------------- | ---------- | ---------------- | --- |
+| A: Pawn on a Grid                             | 文字列操作 | 2022/12/03       | --- |
+| B: Inverse Prefix Sum                         | 単純ループ | 2022/12/03       | --- |
+| C: Extra Character                            | 単純ループ | 2022/12/03       | --- |
+| D: Factorial and Multiple                     |            | 2022/12/03(保留) |     |
+
+
+| [No. 281](https://atcoder.jp/contests/abc281) | type         | tried at   |     |
+| --------------------------------------------- | ------------ | ---------- | --- |
+| A: Count Down                                 | 算数         | 2022/12/10 | --- |
+| B: Sandwich Number                            | 標準メソッド | 2022/12/10 | --- |
+| C: Circular Playlist                          | 累積和       | 2022/12/10 | --- |
+| D: Max Multiple                               | DP           | 2022/12/10 |     |
+
+
+| [No. 282](https://atcoder.jp/contests/abc282) | type       | tried at   |     |
+| --------------------------------------------- | ---------- | ---------- | --- |
+| A: Generalized ABC                            | 算数       | 2022/12/17 | --- |
+| B: Let's Get a Perfect Score                  | 単純ループ | 2022/12/17 | --- |
+| C: String Delimiter                           | 累積和     | 2022/12/17 | --- |
+
+
+| [No. 283](https://atcoder.jp/contests/abc283) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Power                                      | G-   | 算数       | 2022/12/24 | --- |
+| B: First Query Problem                        | G-   | 単純ループ | 2022/12/24 | --- |
+| C: Cash Register                              | G-   | 文字列操作 | 2022/12/24 | --- |
+| D: Scope                                      | F-   | 文字列操作 | 2022/12/25 |     |
+
+
+| [No. 284](https://atcoder.jp/contests/abc284) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Sequence of Strings                        | G-   | 単純ループ | 2023/01/07 | --- |
+| B: Multi Test Cases                           | G-   | 単純ループ | 2023/01/07 | --- |
+| C: Count Connected Components                 | G    | DFS/BFS    | 2023/01/07 |     |
+| D: Happy New Year 2023                        | F    | 整数論     | 2023/01/09 |     |
+
+
+| [No. 285](https://atcoder.jp/contests/abc285) | rank | type               | tried at   |     |
+| --------------------------------------------- | ---- | ------------------ | ---------- | --- |
+| A: Edge Checker 2                             | G-   | 算数               | 2023/01/15 | --- |
+| B: Longest Uncommon Prefix                    | G-   | 単純ループ         | 2023/01/15 |     |
+| C: abc285_brutmhyhiizp                        | G    | 文字列操作         | 2023/01/15 |     |
+| D: Change Usernames                           | F+   | DFS/BFS/Union-Find | 2023/01/19 |     |
+
+
+| [No. 286](https://atcoder.jp/contests/abc286) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Range Swap                                 | G-   | 算数       | 2023/01/21 | --- |
+| B: Cat                                        | G-   | 文字列操作 | 2023/01/21 | --- |
+| C: Rotate and Palindrome                      | F    | 文字列操作 | 2023/01/22 |     |
+| D: Money in Hand                              | F    | DP         | 2023/01/22 |     |
+
+
+
+
+-----
+
 
 
 
@@ -186,3 +307,12 @@
 | 022: Cubic Cake                                    | GCD        | 2022/11/18 |     |
 | 024: Select +／- One                               | 単純ループ | 2022/11/18 | --- |
 | 027: Sign Up Requests                              | 単純ループ | 2022/11/18 | --- |
+| 033: Not Too Bright                                | 工夫       | 2022/11/24 | --- |
+
+
+| [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type  | tried at   |     |
+| ------------------------------------------------------- | ----- | ---------- | --- |
+| A61: Adjacent Vertices                                  | graph | 2023/01/01 |     |
+| A62: Depth First Search                                 | DFS   | 2023/01/12 |     |
+| B61: Influencer                                         | graph | 2023/01/04 |     |
+| B62: Print a Path                                       | DFS   | 2023/01/14 |     |
