@@ -322,5 +322,7 @@
 | ------------------------------------------------------- | ----- | ---------- | --- |
 | A61: Adjacent Vertices                                  | graph | 2023/01/01 |     |
 | A62: Depth First Search                                 | DFS   | 2023/01/12 |     |
+| A63: Shortest Path 1                                    | BFS   | 2023/02/05 |     |
 | B61: Influencer                                         | graph | 2023/01/04 |     |
 | B62: Print a Path                                       | DFS   | 2023/01/14 |     |
+| B63: Breadth First Search(誤字あり)                     | BFS   | 2023/02/05 |     |
