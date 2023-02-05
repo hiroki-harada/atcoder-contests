@@ -280,16 +280,15 @@
 | D: Money in Hand                              | F    | DP         | 2023/01/22 |     |
 
 
-| [No. 288](https://atcoder.jp/contests/abc288) | rank | type       | tried at   |            |
-| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
-| A: Many A+B Problems                          |      | 算数       | 2023/02/04 | ---------- |
-| B: Qualification Contest                      |      | 単純ループ | 2023/02/04 | ---------- |
-| C: Don’t be cycle                             |      |            | 2023/02/04 |            |
-| D:                                            |      |            | 2023/02/04 |            |
+| [No. 288](https://atcoder.jp/contests/abc288) | rank | type              | tried at   |            |
+| --------------------------------------------- | ---- | ----------------- | ---------- | ---------- |
+| A: Many A+B Problems                          | G-   | 算数              | 2023/02/04 | ---------- |
+| B: Qualification Contest                      | G-   | 単純ループ        | 2023/02/04 | ---------- |
+| C: Don’t be cycle                             | F-   | DFS/BFS/UnionFind | 2023/02/05 |            |
+| D: Range Add Query                            | C    |                   |            |            |
 
 
 -----
-
 
 
 
