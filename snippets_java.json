@@ -107,5 +107,14 @@
 			"}"
 		],
 		"description": "util class for Some Mathematics on java"
+	},
+
+	"number of data sets": {
+		"prefix": "nm java",
+		"body": [
+			"int n = io.nextInt();",
+			"int m = io.nextInt();"
+		],
+		"description": ""
 	}
 }
