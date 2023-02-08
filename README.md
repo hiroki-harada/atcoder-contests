@@ -318,11 +318,12 @@
 | 033: Not Too Bright                                | 工夫       | 2022/11/24 | --- |
 
 
-| [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type  | tried at   |     |
-| ------------------------------------------------------- | ----- | ---------- | --- |
-| A61: Adjacent Vertices                                  | graph | 2023/01/01 |     |
-| A62: Depth First Search                                 | DFS   | 2023/01/12 |     |
-| A63: Shortest Path 1                                    | BFS   | 2023/02/05 |     |
-| B61: Influencer                                         | graph | 2023/01/04 |     |
-| B62: Print a Path                                       | DFS   | 2023/01/14 |     |
-| B63: Breadth First Search(誤字あり)                     | BFS   | 2023/02/05 |     |
+| [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type           | tried at   |     |
+| ------------------------------------------------------- | -------------- | ---------- | --- |
+| A61: Adjacent Vertices                                  | graph          | 2023/01/01 |     |
+| A62: Depth First Search                                 | DFS            | 2023/01/12 |     |
+| A63: Shortest Path 1                                    | BFS            | 2023/02/05 |     |
+| A64: Shortest Path 2                                    | ダイクストラ法 | 2023/02/07 |     |
+| B61: Influencer                                         | graph          | 2023/01/04 |     |
+| B62: Print a Path                                       | DFS            | 2023/01/14 |     |
+| B63: Breadth First Search(誤字あり)                     | BFS            | 2023/02/05 |     |
