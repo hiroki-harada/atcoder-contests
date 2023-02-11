@@ -17,16 +17,17 @@ public class ShortestPathWithRestoration {
         }
         io.close();
 
-        // 初期化
+        // initialize
         boolean[] isDecided = new boolean[n];
         int[] cur = new int[n];
         Arrays.fill(cur, Integer.MAX_VALUE);
 
-        // 初期値設定
+        // set init value
         cur[0] = 0;
         Queue<State> que = new PriorityQueue<>();
         que.add(new State(cur[0], 0));
 
+        // Dijkstra's algorithm
         while (!que.isEmpty()) {
             int current = que.remove().pos;
             if (isDecided[current]) continue;
