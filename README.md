@@ -285,12 +285,14 @@
 | A: Many A+B Problems                          | G-   | 算数              | 2023/02/04 | ---------- |
 | B: Qualification Contest                      | G-   | 単純ループ        | 2023/02/04 | ---------- |
 | C: Don’t be cycle                             | F-   | DFS/BFS/UnionFind | 2023/02/05 |            |
-| D: Range Add Query                            | C    |                   |            |            |
 
 
-| [No. 289](https://atcoder.jp/contests/abc289) | rank | type       | tried at   |     |
-| --------------------------------------------- | ---- | ---------- | ---------- | --- |
-| A: flip                                       | G-   | 文字列操作 | 2023/02/11 |     |
+| [No. 289](https://atcoder.jp/contests/abc289) | rank | type       | tried at   |            |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: flip                                       | G-   | 文字列操作 | 2023/02/11 | ---------- |
+| B: レ (Chinese Charactor)                     | G    | 単純ループ | 2023/02/11 |            |
+
+
 -----
 
 | [No. 2xx](https://atcoder.jp/contests/abc2xx) | rank | type | tried at   |     |
