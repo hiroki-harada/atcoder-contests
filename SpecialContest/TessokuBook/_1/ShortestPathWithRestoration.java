@@ -7,10 +7,10 @@ public class ShortestPathWithRestoration {
         int n = io.nextInt();
         int m = io.nextInt();
         List<ArrayList<Edge>> graph = new ArrayList<>();
-        for (int i = 0; i < n; i++) graph.add(new ArrayList<>());
+        for (int i = 0; i <= n; i++) graph.add(new ArrayList<>());
         for (int i = 0; i < m; i++) {
-            int a = io.nextInt()-1;
-            int b = io.nextInt()-1;
+            int a = io.nextInt();
+            int b = io.nextInt();
             int c = io.nextInt();
             graph.get(a).add(new Edge(b, c));
             graph.get(b).add(new Edge(a, c));
@@ -42,6 +42,7 @@ public class ShortestPathWithRestoration {
             }
         }
 
+        // 経路の復元
         List<Integer> result = new ArrayList<>();
         int current = n;
         result.add(current);
@@ -49,8 +50,17 @@ public class ShortestPathWithRestoration {
             result.add(current);
             if (current == 1) break;
 
+            for (int i = 0, size = graph.get(current).size(); i < size; i++) {
+                int previous = graph.get(current).get(i).to;
+                int length = graph.get(current).get(i).length;
+                if (cur[previous] + length == cur[current]) {
+                    current = previous;
+                    break;
+                }
+            }
         }
         result.sort((i, j) -> j - i);
+        io.outputArray(result.toArray(new Integer[result.size()]), null);
     }
 
     private static class IOHandler {
