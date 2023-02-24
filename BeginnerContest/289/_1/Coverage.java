@@ -18,34 +18,34 @@ public class Coverage {
         // https://qiita.com/drken/items/a5e6fe22863b7992efdb#%E5%95%8F%E9%A1%8C-4%E9%83%A8%E5%88%86%E5%92%8C%E6%95%B0%E3%81%88%E4%B8%8A%E3%81%92%E5%95%8F%E9%A1%8C
 
         // dp[i][j] :=  S0~Si までの集合の中からいくつかを選択して、その集合全体の連続する最大値がjとなる、場合の数
-        int[][] dp = new int[m][n];
+        int[][] dp = new int[m+1][n+1];
 
         // 初期値, S1 のみを選択した場合
         for (int i = 1; i <= n; i++) {
             if (!s.get(0).contains(i)) break;
-            dp[0][i] = 1;
+            dp[1][i] = 1;
         }
 
         // 漸化式, dp[i+1][j] を求める
-        for (int i = 0; i < m-1; i++) {
-            for (int j = 1; j < n; j++) {
-                // s.get(j) を選ぶ場合
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j <= n; j++) {
+                // si を選ぶ場合
                 if (s.get(i).contains(j)) {
-                    // s.get(j) に j が含まれる
-                    dp[i+1][j] = dp[i][j-1];
+                    // si に j が含まれる
+                    dp[i+1][j] += dp[i][j-1];
                 } else {
                     // 含まれない
-                    dp[i+1][j-1] = dp[i][j-1];
+                    dp[i+1][j-1] += dp[i][j-1];
                 }
 
-                // s.get(j) を選ばない場合
-                dp[i+1][j] = dp[i][j];
+                // si を選ばない場合
+                dp[i+1][j] += dp[i][j];
             }
         }
 
         int result = 0;
         for (int[] dpi : dp) {
-            result += dpi[n-1];
+            result += dpi[n];
         }
         io.output(result);
     }
