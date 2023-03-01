@@ -19,13 +19,14 @@ public class Coverage {
         for (int i = 0; i < 1<<m; i++) {
             Set<Integer> set = new HashSet<>();
             for (int j = 0; j < m; j++) {
-
+                // i の j ビット目が 1 の場合
+                if ((i>>j & 1) == 1) {
+                    // 集合Sj の中身を全て取得
+                    for (Integer integer : s.get(j)) set.add(integer);
+                }
             }
+            if (set.size() == n) result++;
         }
-
-
-
-
         io.output(result);
     }
 
@@ -33,28 +34,6 @@ public class Coverage {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
         private int nextInt() {return this.sc.nextInt();}
-        private String nextStr() {return this.sc.next();}
-        private int[] nextIntArray(int size) {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextInt();
-            return array;
-        }
-        private String[] nextStrArray(int size) {
-            List<String> list = new ArrayList<>();
-            for (int i = 0; i < size; i++) list.add(this.sc.next());
-            return list.toArray(new String[size]);
-        }
         private void output(int result) {System.out.println(result);}
-        private <T> void output(T result) {System.out.println(result);}
-        private void outputIntArray(int[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputArray(T[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
     }
 }
