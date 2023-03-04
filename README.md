@@ -308,6 +308,13 @@
 | C: LRUD Instructions 2                        | G    | 単純ループ | 2023/02/26 | ---------- |
 | D: Flip Cards                                 | F+   | DP         | 2023/02/27 |            |
 
+
+| [No. 292](https://atcoder.jp/contests/abc292) | rank | type       | tried at   |            |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: CAPS LOCK                                  | G-   | 文字列操作 | 2023/03/04 | ---------- |
+| B: Yellow and Red Card                        | G-   | 単純ループ | 2023/03/04 | ---------- |
+| D: Unicyclic Components                       | F    | DFS/BFS    | 2023/03/04 |            |
+
 -----
 
 | [No. 2xx](https://atcoder.jp/contests/abc2xx) | rank | type | tried at   |     |
