@@ -13,39 +13,35 @@ public class FourVariables {
          * A ≦ B とすると、0 ≦ A ≦ √X の範囲を探せばよい
          */
         long result = 0;
-        for (int i = 0; i < n; i++) {
-            int ab = i;
+        for (int ab = 1; ab < n; ab++) {
             int cd = n - ab;
-        }
-        io.output(result);
+            long cntX = 0, cntY = 0;
 
+            for (int i = 1; i*i <= ab; i++) {
+                if (ab%i == 0) {
+                    cntX++;
+                    // A < B の場合、A, B を入れ替えたパターンも勘定する
+                    if (i*i != ab) cntX++;
+                }
+            }
+            for (int i = 1; i*i <= cd; i++) {
+                if (cd%i == 0) {
+                    cntY++;
+                    // C < D の場合、C, Dを入れ替えたパターンも勘定する
+                    if (i*i != cd) cntY++;
+                }
+            }
+
+            result += cntX * cntY;
+        }
+
+        io.output(result);
     }
 
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
         private int nextInt() {return this.sc.nextInt();}
-        private String nextStr() {return this.sc.next();}
-        private int[] nextIntArray(int size) {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextInt();
-            return array;
-        }
-        private String[] nextStrArray(int size) {
-            List<String> list = new ArrayList<>();
-            for (int i = 0; i < size; i++) list.add(this.sc.next());
-            return list.toArray(new String[size]);
-        }
         private void output(long result) {System.out.println(result);}
-        private void outputIntArray(int[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputArray(T[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
     }
 }
