@@ -316,14 +316,20 @@
 | C: Four Variables                             | F-   | 整数論     | 2023/03/08 |            |
 | D: Unicyclic Components                       | F    | DFS/BFS    | 2023/03/04 |            |
 
+
+| [No. 293](https://atcoder.jp/contests/abc293) | rank | type       | tried at   |            |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Swap Odd and Even                          | G-   | 文字列操作 | 2023/03/11 | ---------- |
+| B: Call the ID Number                         | G    | 単純ループ | 2023/03/11 | ---------- |
+
 -----
 
 | [No. 2xx](https://atcoder.jp/contests/abc2xx) | rank | type | tried at   |     |
 | --------------------------------------------- | ---- | ---- | ---------- | --- |
-| A:                                            |      |      | 2023/02/dd |     |
-| B:                                            |      |      | 2023/02/dd |     |
-| C:                                            |      |      | 2023/02/dd |     |
-| D:                                            |      |      | 2023/02/dd |     |
+| A:                                            |      |      | 2023/03/dd |     |
+| B:                                            |      |      | 2023/03/dd |     |
+| C:                                            |      |      | 2023/03/dd |     |
+| D:                                            |      |      | 2023/03/dd |     |
 
 
 ## SpecialContest
