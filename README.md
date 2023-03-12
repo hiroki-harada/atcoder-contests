@@ -317,10 +317,11 @@
 | D: Unicyclic Components                       | F    | DFS/BFS    | 2023/03/04 |            |
 
 
-| [No. 293](https://atcoder.jp/contests/abc293) | rank | type       | tried at   |            |
-| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
-| A: Swap Odd and Even                          | G-   | 文字列操作 | 2023/03/11 | ---------- |
-| B: Call the ID Number                         | G    | 単純ループ | 2023/03/11 | ---------- |
+| [No. 293](https://atcoder.jp/contests/abc293) | rank | type           | tried at   |            |
+| --------------------------------------------- | ---- | -------------- | ---------- | ---------- |
+| A: Swap Odd and Even                          | G-   | 文字列操作     | 2023/03/11 | ---------- |
+| B: Call the ID Number                         | G-   | 単純ループ     | 2023/03/11 | ---------- |
+| C: Make Takahashi Happy                       | F-   | bit 全探索/DFS | 2023/03/12 |            |
 
 -----
 

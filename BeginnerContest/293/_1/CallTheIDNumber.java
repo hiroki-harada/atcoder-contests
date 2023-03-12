@@ -5,27 +5,27 @@ public class CallTheIDNumber {
 
         IOHandler io = new IOHandler();
         int n = io.nextInt();
+        // xi := 人iは、呼び出し済
         int[] x = new int[n+1];
         for (int i = 1; i <= n; i++) x[i] = i;
 
         for (int i = 1; i <= n; i++) {
-            int a = io.nextInt();
-            if (x[i] != 0) {
-                x[a] = 0;
-            }
+            int ai = io.nextInt();
+            // 人i が呼び出されていない場合、ai の番号を呼ぶ
+            if (x[i] != 0) x[ai] = 0;
         }
         io.close();
 
         StringBuilder result = new StringBuilder();
-        int cnt = 0;
+        int k = 0;
         for (int i = 1; i <= n; i++) {
             if (x[i] != 0) {
                 result.append(x[i]).append(" ");
-                cnt++;
+                k++;
             }
         }
 
-        io.output(cnt);
+        io.output(k);
         io.output(result.toString());
     }
 
