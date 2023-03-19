@@ -323,6 +323,13 @@
 | B: Call the ID Number                         | G-   | 単純ループ     | 2023/03/11 | ---------- |
 | C: Make Takahashi Happy                       | F-   | bit 全探索/DFS | 2023/03/12 |            |
 
+
+| [No. 294](https://atcoder.jp/contests/abc294) | rank | type               | tried at   |            |
+| --------------------------------------------- | ---- | ------------------ | ---------- | ---------- |
+| A: Filter                                     |      | 単純ループ         | 2023/03/19 | ---------- |
+| B: ASCII Art                                  |      | 単純ループ         | 2023/03/19 | ---------- |
+| C: Merge Sequences                            |      | 単純ループ, 計算量 | 2023/03/19 | ---------- |
+
 -----
 
 | [No. 2xx](https://atcoder.jp/contests/abc2xx) | rank | type | tried at   |     |
