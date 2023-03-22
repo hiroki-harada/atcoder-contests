@@ -4,7 +4,8 @@ public class Bank {
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
-        int n = io.nextInt();
+        // discard n
+        io.nextInt();
         int q = io.nextInt();
 
         // que, List(?)より、高速で処理ができる
