@@ -47,7 +47,7 @@ public class ShortestPathWithRestoration {
         List<Integer> result = new ArrayList<>();
         int current = n-1;
         while (true) {
-            result.add(current);
+            result.add(current+1);
             if (current == 0) break;
 
             for (int i = 0, size = graph.get(current).size(); i < size; i++) {
@@ -60,8 +60,9 @@ public class ShortestPathWithRestoration {
             }
         }
 
-        // 0 origin -> 1 origin and sort
-        result.stream().map(i -> ++i).sorted((i, j) -> i - j).collect(Collectors.toList());
+        // result が降順になっている前提で、昇順にする
+        // Stream.sorted() を使用すると、WAになるデータパターンが存在する
+        Collections.reverse(result);
         io.outputArray(result.toArray(new Integer[result.size()]), " ");
     }
 

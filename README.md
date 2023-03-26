@@ -379,3 +379,4 @@
 | B61: Influencer                                         | graph          | 2023/01/04 |     |
 | B62: Print a Path                                       | DFS            | 2023/01/14 |     |
 | B63: Breadth First Search(誤字あり)                     | BFS            | 2023/02/05 |     |
+| B64: Shortest Path with Restoration                     | BFS            | 2023/02/05 |     |
