@@ -367,6 +367,7 @@
 | 027: Sign Up Requests                              | 単純ループ | 2022/11/18 | --- |
 | 033: Not Too Bright                                | 工夫       | 2022/11/24 | --- |
 | 055: Select 5                                      | 全探索/DP? | 2023/03/25 |     |
+| 061: Deck                                          | 単純ループ | 2023/03/29 | --- |
 
 
 | [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type           | tried at   |     |
