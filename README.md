@@ -349,6 +349,10 @@
 | D: Count Subtractions                         | F-   | 単純ループ, 計算量 | 2023/04/09 | ---------- |
 
 
+| [No. 298](https://atcoder.jp/contests/abc298) | rank | type | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
+| A: Job Interview                              |      |      | 2023/04/15 |            |
+
 -----
 
 | [No. 2xx](https://atcoder.jp/contests/abc2xx) | rank | type | tried at   | ---------- |
