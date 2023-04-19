@@ -131,9 +131,12 @@
 | B: Modulo Number                              | 算数 | 2022/11/15 | --- |
 
 
-| [No. 267](https://atcoder.jp/contests/abc267) | type | tried at   |     |
-| --------------------------------------------- | ---- | ---------- | --- |
-| A: Saturday                                   | 算数 | 2022/11/14 | --- |
+| [No. 267](https://atcoder.jp/contests/abc267) | rank | type   | tried at   |     |
+| --------------------------------------------- | ---- | ------ | ---------- | --- |
+| A: Saturday                                   | G-   | 算数   | 2022/11/14 | --- |
+| B: Split                                      | G    | 全探査 | 2023/01/23 |     |
+| C: Index × A(Continuous ver.)                 | F-   | DP     | 2023/02/01 |     |
+| D:                                            | E-   | 算数   | 2023/01/23 |     |
 
 
 | [No. 268](https://atcoder.jp/contests/abc268) | tried at   |     |
@@ -277,11 +280,87 @@
 | D: Money in Hand                              | F    | DP         | 2023/01/22 |     |
 
 
+| [No. 288](https://atcoder.jp/contests/abc288) | rank | type              | tried at   |            |
+| --------------------------------------------- | ---- | ----------------- | ---------- | ---------- |
+| A: Many A+B Problems                          | G-   | 算数              | 2023/02/04 | ---------- |
+| B: Qualification Contest                      | G-   | 単純ループ        | 2023/02/04 | ---------- |
+| C: Don’t be cycle                             | F-   | DFS/BFS/UnionFind | 2023/02/05 |            |
 
+
+| [No. 289](https://atcoder.jp/contests/abc289) | rank | type       | tried at   |            |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: flip                                       | G-   | 文字列操作 | 2023/02/11 | ---------- |
+| B: レ (Chinese Charactor)                     | G    | 単純ループ | 2023/02/11 |            |
+| C: Coverage                                   | G+   | bit 全探索 | 2023/02/11 |            |
+
+
+| [No. 290](https://atcoder.jp/contests/abc290) | rank | type       | tried at   |     |
+| --------------------------------------------- | ---- | ---------- | ---------- | --- |
+| A: Contest Result                             | G-   | 算数       | 2023/02/19 | --- |
+| B: Qual B                                     | G-   | 単純ループ | 2023/02/19 | --- |
+| C: Max MEX                                    | G    | 単純ループ | 2023/02/19 |     |
+
+
+| [No. 291](https://atcoder.jp/contests/abc291) | rank | type       | tried at   |            |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: camel Case                                 | G-   | 単純ループ | 2023/02/26 | ---------- |
+| B: Trimmed Mean                               | G-   | 単純ループ | 2023/02/26 | ---------- |
+| C: LRUD Instructions 2                        | G    | 単純ループ | 2023/02/26 | ---------- |
+| D: Flip Cards                                 | F+   | DP         | 2023/02/27 |            |
+
+
+| [No. 292](https://atcoder.jp/contests/abc292) | rank | type       | tried at   |            |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: CAPS LOCK                                  | G-   | 文字列操作 | 2023/03/04 | ---------- |
+| B: Yellow and Red Card                        | G-   | 単純ループ | 2023/03/04 | ---------- |
+| C: Four Variables                             | F-   | 整数論     | 2023/03/08 |            |
+| D: Unicyclic Components                       | F    | DFS/BFS    | 2023/03/04 |            |
+
+
+| [No. 293](https://atcoder.jp/contests/abc293) | rank | type           | tried at   |            |
+| --------------------------------------------- | ---- | -------------- | ---------- | ---------- |
+| A: Swap Odd and Even                          | G-   | 文字列操作     | 2023/03/11 | ---------- |
+| B: Call the ID Number                         | G-   | 単純ループ     | 2023/03/11 | ---------- |
+| C: Make Takahashi Happy                       | F-   | bit 全探索/DFS | 2023/03/12 |            |
+
+
+| [No. 294](https://atcoder.jp/contests/abc294) | rank | type               | tried at   |            |
+| --------------------------------------------- | ---- | ------------------ | ---------- | ---------- |
+| A: Filter                                     | G-   | 単純ループ         | 2023/03/19 | ---------- |
+| B: ASCII Art                                  | G-   | 単純ループ         | 2023/03/19 | ---------- |
+| C: Merge Sequences                            | G    | 単純ループ, 計算量 | 2023/03/19 | ---------- |
+| D: Bank                                       | G+   | 単純ループ, 計算量 | 2023/03/19 |            |
+| E: 2xN Grid                                   | F+   |                    | 2023/03/22 |            |
+
+
+| [No. 296](https://atcoder.jp/contests/abc296) | rank | type               | tried at   | ---------- |
+| --------------------------------------------- | ---- | ------------------ | ---------- | ---------- |
+| A: Alternately                                | G-   | 文字列操作         | 2023/04/01 | ---------- |
+| B: Chessboard                                 | G-   | 文字列操作         | 2023/04/01 | ---------- |
+| C: Gap Existence                              | G    | 単純ループ, 計算量 | 2023/04/01 | ---------- |
+| D: M<=ab                                      | F    | 整数論             | 2023/04/05 |            |
+
+
+| [No. 297](https://atcoder.jp/contests/abc297) | rank | type               | tried at   | ---------- |
+| --------------------------------------------- | ---- | ------------------ | ---------- | ---------- |
+| A: Double Click                               | G-   | 単純ループ         | 2023/04/09 | ---------- |
+| B: chess960                                   | G-   | 文字列操作         | 2023/04/09 | ---------- |
+| C: PC on the Table                            | G    | 単純ループ         | 2023/04/09 | ---------- |
+| D: Count Subtractions                         | F-   | 単純ループ, 計算量 | 2023/04/09 | ---------- |
+
+
+| [No. 298](https://atcoder.jp/contests/abc298) | rank | type | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
+| A: Job Interview                              |      |      | 2023/04/15 |            |
 
 -----
 
-
+| [No. 2xx](https://atcoder.jp/contests/abc2xx) | rank | type | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
+| A:                                            |      |      | 2023/03/dd |            |
+| B:                                            |      |      | 2023/03/dd |            |
+| C:                                            |      |      | 2023/03/dd |            |
+| D:                                            |      |      | 2023/03/dd |            |
 
 
 ## SpecialContest
@@ -308,11 +387,18 @@
 | 024: Select +／- One                               | 単純ループ | 2022/11/18 | --- |
 | 027: Sign Up Requests                              | 単純ループ | 2022/11/18 | --- |
 | 033: Not Too Bright                                | 工夫       | 2022/11/24 | --- |
+| 055: Select 5                                      | 全探索/DP? | 2023/03/25 |     |
+| 061: Deck                                          | 単純ループ | 2023/03/29 | --- |
 
 
-| [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type  | tried at   |     |
-| ------------------------------------------------------- | ----- | ---------- | --- |
-| A61: Adjacent Vertices                                  | graph | 2023/01/01 |     |
-| A62: Depth First Search                                 | DFS   | 2023/01/12 |     |
-| B61: Influencer                                         | graph | 2023/01/04 |     |
-| B62: Print a Path                                       | DFS   | 2023/01/14 |     |
+| [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type           | tried at   |     |
+| ------------------------------------------------------- | -------------- | ---------- | --- |
+| A61: Adjacent Vertices                                  | graph          | 2023/01/01 |     |
+| A62: Depth First Search                                 | DFS            | 2023/01/12 |     |
+| A63: Shortest Path 1                                    | BFS            | 2023/02/05 |     |
+| A64: Shortest Path 2                                    | ダイクストラ法 | 2023/02/07 |     |
+| A65: Road to Promotion                                  | DP             | 2023/03/15 |     |
+| B61: Influencer                                         | graph          | 2023/01/04 |     |
+| B62: Print a Path                                       | DFS            | 2023/01/14 |     |
+| B63: Breadth First Search(誤字あり)                     | BFS            | 2023/02/05 |     |
+| B64: Shortest Path with Restoration                     | BFS            | 2023/02/05 |     |
