@@ -361,6 +361,11 @@
 | C: Dango                                      |      | 単純ループ | 2023/04/22 | ---------- |
 
 
+| [No. 300](https://atcoder.jp/contests/abc300) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: N-choice question                          | G-   | 単純ループ | 2023/04/29 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
