@@ -12,19 +12,25 @@ public class SameMapInTheRPGWorld {
 
         // 0 <= s < H, 0 <= h < W であるs, t に対して
         // 縦方向のシフトをs 回、次に横方向のシフトをt 回行った時
-        // 操作後の各A、B が一致するか判定
+        // 操作後のA、B の各点が一致するか判定
         for (int s = 0; s < h; s++) {
             for (int t = 0; t < w; t++) {
 
+                boolean isMatch = true;
+
                 for (int i = 0; i < h; i++) {
                     for (int j = 0; j < w; j++) {
-
-                        if (a[(i-s+h)%h].charAt((j-t+w)%w) != b[i].charAt(j)) {
-                            io.output("No");
-                            return;
-                        }
+                        // インデックスが -1 にならないよう、s, t をそれぞれ加算する
+                        if (a[(i-s+h)%h].charAt((j-t+w)%w) != b[i].charAt(j)) isMatch = false;
                     }
                 }
+
+                // 一致していたら処理終了
+                if (isMatch) {
+                    io.output("Yes");
+                    return;
+                }
+                // 不一致の場合、さらにシフトして一致するか確認(次のループへ)
             }
         }
 
