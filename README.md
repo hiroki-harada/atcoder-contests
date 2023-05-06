@@ -353,14 +353,28 @@
 | --------------------------------------------- | ---- | ---- | ---------- | ---------- |
 | A: Job Interview                              |      |      | 2023/04/15 |            |
 
+
+| [No. 299](https://atcoder.jp/contests/abc299) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Treasure Chest                             |      | 文字列操作 | 2023/04/22 | ---------- |
+| B: Trick Taking                               |      | 単純ループ | 2023/04/22 | ---------- |
+| C: Dango                                      |      | 単純ループ | 2023/04/22 | ---------- |
+
+
+| [No. 300](https://atcoder.jp/contests/abc300) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: N-choice question                          | G-   | 単純ループ      | 2023/04/29 | ---------- |
+| B: Same Map in the RPG World                  | G+   | 全探査          | 2023/05/05 |            |
+| C: Cross                                      | F-   | 単純ループ/工夫 | 2023/05/05 |            |
+
 -----
 
-| [No. 2xx](https://atcoder.jp/contests/abc2xx) | rank | type | tried at   | ---------- |
+| [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
 | --------------------------------------------- | ---- | ---- | ---------- | ---------- |
-| A:                                            |      |      | 2023/03/dd |            |
-| B:                                            |      |      | 2023/03/dd |            |
-| C:                                            |      |      | 2023/03/dd |            |
-| D:                                            |      |      | 2023/03/dd |            |
+| A:                                            |      |      | 2023/05/dd |            |
+| B:                                            |      |      | 2023/05/dd |            |
+| C:                                            |      |      | 2023/05/dd |            |
+| D:                                            |      |      | 2023/05/dd |            |
 
 
 ## SpecialContest
@@ -402,3 +416,4 @@
 | B62: Print a Path                                       | DFS            | 2023/01/14 |     |
 | B63: Breadth First Search(誤字あり)                     | BFS            | 2023/02/05 |     |
 | B64: Shortest Path with Restoration                     | BFS            | 2023/02/05 |     |
+| B65: Road to Promotion Hard                             | DFS            | 2023/04/25 |     |
