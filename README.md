@@ -336,6 +336,7 @@
 | [No. 295](https://atcoder.jp/contests/abc295) | rank | type               | tried at   | ---------- |
 | --------------------------------------------- | ---- | ------------------ | ---------- | ---------- |
 | A: Probably English                           | G-   | 文字列操作         | 2023/05/08 | ---------- |
+| B: Bombs                                      | G-   | 文字列操作         | 2023/05/18 |            |
 
 
 | [No. 296](https://atcoder.jp/contests/abc296) | rank | type               | tried at   | ---------- |
