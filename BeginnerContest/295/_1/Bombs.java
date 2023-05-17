@@ -9,21 +9,27 @@ public class Bombs {
         String[] b = io.nextStrArray(r);
         io.close();
 
-        String[] result = new String[r];
+        boolean[][] result = new boolean[r][c];
+
         for (int i = 0; i < r; i++) {
-            String bi = b[i];
+            for (int j = 0; j < c; j++) {
+                if (Character.isDigit(b[i].charAt(j))) continue;
+                int bij = (int)b[i].charAt(j);
 
-            for (String bij : bi.split("")) {
-                if (bij.matches("[0-9]")) {
-                    for (int k = 0; k < result.length; k++) {
-
+                for (int ni = 0; ni < r; ni++) {
+                    for (int nj = 0; nj < c; nj++) {
+                        if (Math.abs(i - ni) + Math.abs(j - nj) <= bij) result[ni][nj] = true;
                     }
                 }
             }
-            result[i] = bi;
         }
 
-        io.outputArray(result, "\n");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                if (result[i][j]) b[i] = b[i].substring(0, i) + "." + b[i].substring(i+1, b[i].length());
+            }
+        }
+        io.outputArray(b, "\r\n");
     }
 
     private static class IOHandler {
