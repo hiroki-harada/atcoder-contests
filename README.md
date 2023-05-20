@@ -381,6 +381,13 @@
 | B: Fill the Gaps                              | G-   | 単純ループ      | 2023/05/13 | ---------- |
 | C: AtCoder Cards                              | G+   | 単純ループ/工夫 | 2023/05/15 |            |
 
+
+| [No. 302](https://atcoder.jp/contests/abc302) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Attack                                     | G-   | 計算/工夫       | 2023/05/20 |            |
+| B: Find snuke                                 | G-   | 単純ループ/工夫 | 2023/05/20 |            |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
