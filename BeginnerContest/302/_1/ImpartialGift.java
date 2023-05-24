@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class ImpartialGift {
     public static void main(String[] args) {
@@ -7,16 +8,40 @@ public class ImpartialGift {
         int n = io.nextInt();
         int m = io.nextInt();
         long d = io.nextLong();
-        LinkedList<Long> a = new LinkedList<>();
+        Set<Long> a = new HashSet<>();
+        Set<Long> b = new HashSet<>();
         for (int i = 0; i < n; i++) a.add(io.nextLong());
-        LinkedList<Long> b = new LinkedList<>();
         for (int i = 0; i < m; i++) b.add(io.nextLong());
         io.close();
 
+        LinkedList<Long> s = new LinkedList<>(toSortList(a));
+        LinkedList<Long> t = new LinkedList<>(toSortList(b));
 
+        while (true) {
+            if (n == 0 || m == 0) {
+                io.output(-1);
+                return;
+            }
 
+            long sMax = s.getLast();
+            long tMax = t.getLast();
+            if (Math.abs(sMax-tMax) <= d) {
+                io.output(sMax + tMax);
+                return;
+            }
 
+            if (sMax > tMax) {
+                s.removeLast();
+                n--;
+            } else {
+                t.removeLast();
+                m--;
+            }
+        }
+    }
 
+    private static <T> List<T> toSortList(Set<T> set) {
+        return set.stream().collect(Collectors.toList()).stream().sorted().collect(Collectors.toList());
     }
 
     private static class IOHandler {
@@ -24,42 +49,6 @@ public class ImpartialGift {
         private void close() {this.sc.close();}
         private int nextInt() {return this.sc.nextInt();}
         private long nextLong() {return this.sc.nextLong();}
-        private String nextStr() {return this.sc.next();}
-        private int[] nextIntArray(int size) {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextInt();
-            return array;
-        }
-        private int[][] nextIntArray(int size1, int size2) {
-           int[][] array = new int[size1][size2];
-           for (int i = 0; i < size1; i++) array[i] = nextIntArray(size2);
-           return array;
-        }
-        private long[] nextLongArray(int size) {
-            long[] array = new long[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextLong();
-            return array;
-        }
-        private String[] nextStrArray(int size) {
-            List<String> list = new ArrayList<>();
-            for (int i = 0; i < size; i++) list.add(this.sc.next());
-            return list.toArray(new String[size]);
-        }
         private void output(long result) {System.out.println(result);}
-        private void outputIntArray(int[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputArray(T[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputList(List<T> list, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (T e : list)  result.append(e).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
     }
 }
