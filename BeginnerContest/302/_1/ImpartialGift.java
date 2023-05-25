@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class ImpartialGift {
     public static void main(String[] args) {
@@ -8,14 +7,14 @@ public class ImpartialGift {
         int n = io.nextInt();
         int m = io.nextInt();
         long d = io.nextLong();
-        Set<Long> a = new HashSet<>();
-        Set<Long> b = new HashSet<>();
+        List<Long> a = new ArrayList<>();
+        List<Long> b = new ArrayList<>();
         for (int i = 0; i < n; i++) a.add(io.nextLong());
         for (int i = 0; i < m; i++) b.add(io.nextLong());
         io.close();
 
-        LinkedList<Long> s = new LinkedList<>(toSortList(a));
-        LinkedList<Long> t = new LinkedList<>(toSortList(b));
+        Collections.sort(a);
+        Collections.sort(b);
 
         while (true) {
             if (n == 0 || m == 0) {
@@ -23,26 +22,23 @@ public class ImpartialGift {
                 return;
             }
 
-            long sMax = s.getLast();
-            long tMax = t.getLast();
-            if (Math.abs(sMax-tMax) <= d) {
-                io.output(sMax + tMax);
+            long aMax = a.get(a.size()-1);
+            long bMax = b.get(b.size()-1);
+            if (Math.abs(aMax-bMax) <= d) {
+                io.output(aMax + bMax);
                 return;
             }
 
-            if (sMax > tMax) {
-                s.removeLast();
+            if (aMax > bMax) {
+                a.remove(a.size()-1);
                 n--;
             } else {
-                t.removeLast();
+                b.remove(b.size()-1);
                 m--;
             }
         }
     }
 
-    private static <T> List<T> toSortList(Set<T> set) {
-        return set.stream().collect(Collectors.toList()).stream().sorted().collect(Collectors.toList());
-    }
 
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
