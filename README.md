@@ -390,6 +390,13 @@
 | D: Impartial Gift                             | F+   | 単純ループ/工夫 | 2023/05/25 |            |
 
 
+| [No. 303](https://atcoder.jp/contests/abc303) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Similar String                             | G-   | 単純ループ | 2023/05/27 | ---------- |
+| B: Discord                                    | G    | 単純ループ | 2023/05/27 | ---------- |
+| C: Dash                                       | F-   | 単純ループ | 2023/05/27 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
