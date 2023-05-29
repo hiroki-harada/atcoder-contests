@@ -10,12 +10,27 @@ public class ShiftVsCapsLock {
         String s = io.nextStr();
         io.close();
 
-        // dp[i][j] := i 文字目を入力した時、shift同時押しj (= 0, 1) だった場合の累計秒数
+        // dp[i][j] := i 文字目を入力した時、CapsLock が j (=0:OFF, 1:ON) だった場合の最短累計秒数
         int[][] dp = new int[s.length()+1][2];
         // 初期値設定は省略
 
         for (int i = 0; i < s.length(); i++) {
+            // cur := 1:A, 0:a; 2値に置き換える
+            int cur = s.charAt(i) == 'a' ? 0 : 1;
 
+            for (int j = 0; j < 2; j++) {
+                // clFlag := CapsLock =0:OFF, 1:ON)
+                for (int clFlag = 0; clFlag < 2; clFlag++) {
+                    int time = dp[i][j];
+
+                    // capsLock を押下した場合
+                    if (j != clFlag) time += z;
+                    // shift同時押しした場合
+                    time += cur == clFlag ? x : y;
+
+                    dp[i+1][clFlag] = Math.min(time, dp[i+1][clFlag]);
+                }
+            }
 
             io.output("i, dp[i+1][0], dp[i+1][0] = " + (i+1) + ", " + dp[i+1][0] + ", " + dp[i+1][1]);
         }
@@ -27,44 +42,8 @@ public class ShiftVsCapsLock {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
         private int nextInt() {return this.sc.nextInt();}
-        private long nextLong() {return this.sc.nextLong();}
         private String nextStr() {return this.sc.next();}
-        private int[] nextIntArray(int size) {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextInt();
-            return array;
-        }
-        private int[][] nextIntArray(int size1, int size2) {
-           int[][] array = new int[size1][size2];
-           for (int i = 0; i < size1; i++) array[i] = nextIntArray(size2);
-           return array;
-        }
-        private long[] nextLongArray(int size) {
-            long[] array = new long[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextLong();
-            return array;
-        }
-        private String[] nextStrArray(int size) {
-            List<String> list = new ArrayList<>();
-            for (int i = 0; i < size; i++) list.add(this.sc.next());
-            return list.toArray(new String[size]);
-        }
         private void output(int result) {System.out.println(result);}
         private <T> void output(T result) {System.out.println(result);}
-        private void outputIntArray(int[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputArray(T[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputList(List<T> list, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (T e : list)  result.append(e).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
     }
 }
