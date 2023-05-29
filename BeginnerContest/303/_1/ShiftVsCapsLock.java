@@ -4,35 +4,35 @@ public class ShiftVsCapsLock {
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
-        int x = io.nextInt();
-        int y = io.nextInt();
-        int z = io.nextInt();
+        long x = io.nextLong();
+        long y = io.nextLong();
+        long z = io.nextLong();
         String s = io.nextStr();
         io.close();
 
-        // dp[i][j] := i 文字目を入力した時、CapsLock が j (=0:OFF, 1:ON) だった場合の最短累計秒数
-        int[][] dp = new int[s.length()+1][2];
-        // 初期値設定は省略
+        // dp[i][j] := i 文字目の入力後、CapsLock が j (=0:OFF, 1:ON) だった場合の最短累計秒数
+        long[][] dp = new long[s.length()+1][2];
+
+        // 初期値設定
+        dp[0][0] = 0;
+        dp[0][1] = z;
 
         for (int i = 0; i < s.length(); i++) {
-            // cur := 1:A, 0:a; 2値に置き換える
-            int cur = s.charAt(i) == 'a' ? 0 : 1;
-
-            for (int j = 0; j < 2; j++) {
-                // clFlag := CapsLock =0:OFF, 1:ON)
-                for (int clFlag = 0; clFlag < 2; clFlag++) {
-                    int time = dp[i][j];
-
-                    // capsLock を押下した場合
-                    if (j != clFlag) time += z;
-                    // shift同時押しした場合
-                    time += cur == clFlag ? x : y;
-
-                    dp[i+1][clFlag] = Math.min(time, dp[i+1][clFlag]);
-                }
+            if (s.charAt(i) == 'a') {
+                // 操作後に、CapsLock OFF になる場合
+                // そのまま入力 or CapsLock ONにして入力
+                dp[i+1][0] = Math.min(dp[i][0] + x, dp[i][1] + x + z);
+                // 操作後に、CapsLock ON になる場合
+                // shift同時押し or CapsLock ONにしてshift同時押し
+                dp[i+1][1] = Math.min(dp[i][1] + y, dp[i][0] + y + z);
+            } else {
+                // 操作後に、CapsLock OFF になる場合
+                // shift同時押し or CapsLock OFFにしてshift同時押し
+                dp[i+1][0] = Math.min(dp[i][0] + y, dp[i][1] + y + z);
+                // 操作後に、CapsLock ON になる場合
+                // そのまま入力 or CapsLock OFFにして入力
+                dp[i+1][1] = Math.min(dp[i][1] + x, dp[i][0] + x + z);
             }
-
-            io.output("i, dp[i+1][0], dp[i+1][0] = " + (i+1) + ", " + dp[i+1][0] + ", " + dp[i+1][1]);
         }
 
         io.output(Math.min(dp[s.length()][0], dp[s.length()][1]));
@@ -41,9 +41,8 @@ public class ShiftVsCapsLock {
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
-        private int nextInt() {return this.sc.nextInt();}
+        private long nextLong() {return this.sc.nextLong();}
         private String nextStr() {return this.sc.next();}
-        private void output(int result) {System.out.println(result);}
-        private <T> void output(T result) {System.out.println(result);}
+        private void output(long result) {System.out.println(result);}
     }
 }
