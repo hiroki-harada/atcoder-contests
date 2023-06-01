@@ -4,17 +4,16 @@ public class CardsQueryProblem {
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
-        int n = io.nextInt();
+        io.nextInt(); // discard n
         int q = io.nextInt();
         io.nextLine(); // discard \n
         String[] query = io.nextStrArray(q);
-        io.close();
 
         List<List<Integer>> boxes = new ArrayList<>();
-        for (int i = 0; i < n; i++) boxes.add(new ArrayList<>());
+        for (int i = 0; i < 200001; i++) boxes.add(new ArrayList<>());
         // cardsi := 数i が書かれたカードが入っている箱、その番号の集合
         List<Set<Integer>> cards = new ArrayList<>();
-        for (int i = 0; i < 200000; i++) cards.add(new HashSet<>());
+        for (int i = 0; i < 200001; i++) cards.add(new HashSet<>());
 
         List<String> result = new ArrayList<>();
 
@@ -36,6 +35,7 @@ public class CardsQueryProblem {
                 result.add(makeSortedString(new ArrayList<>(cards.get(i))));
             }
         }
+        io.close();
 
         io.outputList(result, "\n");
     }
@@ -55,9 +55,7 @@ public class CardsQueryProblem {
         private String nextLine() {return this.sc.nextLine();}
         private String[] nextStrArray(int size) {
             List<String> list = new ArrayList<>();
-            for (int i = 0; i < size; i++) {
-                list.add(this.sc.nextLine());
-            }
+            for (int i = 0; i < size; i++) list.add(this.sc.nextLine());
             return list.toArray(new String[size]);
         }
         private <T> void outputList(List<T> list, String delimiter) {

@@ -355,9 +355,11 @@
 | D: Count Subtractions                         | F-   | 単純ループ, 計算量 | 2023/04/09 | ---------- |
 
 
-| [No. 298](https://atcoder.jp/contests/abc298) | rank | type | tried at   | ---------- |
-| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
-| A: Job Interview                              |      |      | 2023/04/15 |            |
+| [No. 298](https://atcoder.jp/contests/abc298) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Job Interview                              | ??   | 単純ループ | 2023/04/15 | ---------- |
+| B: Coloring Matrix                            | ??   | 単純ループ | 2023/04/16 |            |
+| C: Cards Query Problem                        | F    |            | 2023/06/01 |            |
 
 
 | [No. 299](https://atcoder.jp/contests/abc299) | rank | type       | tried at   | ---------- |
