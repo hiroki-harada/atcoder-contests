@@ -400,6 +400,13 @@
 | D: Shift vs. CapsLock                         | F+   | DP         | 2023/05/29 |            |
 
 
+| [No. 304](https://atcoder.jp/contests/abc304) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: First Player                               | G    | 単純ループ | 2023/06/03 | ---------- |
+| B: Subscribers                                | G    | 計算       | 2023/06/03 | ---------- |
+| C: Virus                                      | F-   | 単純ループ | 2023/06/03 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
