@@ -8,6 +8,17 @@ public class Socks {
         long[] a = io.nextLongArray(n);
         io.close();
 
+        int result = 0;
+        List<Long> history = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            if (history.contains(a[i])) {
+                result++;
+                history.remove(a[i]);
+            } else {
+                history.add(a[i]);
+            }
+        }
+        io.output(result);
     }
 
     private static class IOHandler {
