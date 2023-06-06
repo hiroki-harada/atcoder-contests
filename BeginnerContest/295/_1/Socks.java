@@ -9,8 +9,11 @@ public class Socks {
         io.close();
 
         int result = 0;
-        boolean[] history = new boolean[a.stream().max((i, j) -> i.compareTo(j)).get()];
-        for (int i = 0; i < n; i++) {
+        var history = new HashSet<Integer>();
+        for (Integer aa : a) {
+            if (history.add(aa)) continue;
+            result++;
+            history.remove(aa);
         }
         io.output(result);
     }
