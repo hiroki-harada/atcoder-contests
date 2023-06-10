@@ -410,6 +410,13 @@
 | C: Virus                                      | F-   | 単純ループ | 2023/06/03 | ---------- |
 
 
+| [No. 305](https://atcoder.jp/contests/abc305) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Water Station                              | G-   | 計算       | 2023/06/10 | ---------- |
+| B: ABCDEFG                                    | G-   | 計算       | 2023/06/10 | ---------- |
+| C: Snuke the Cookie Picker                    | F-   | 単純ループ | 2023/06/10 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
