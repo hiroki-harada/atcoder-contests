@@ -7,18 +7,19 @@ public class SleepLog {
 
         int n = io.nextInt();
         int[] a = new int[n];
-        long[] aSum = new long[n];
+        // fa[i] := a[i] 分までに何分寝たか
+        long[] fa = new long[n];
 
         a[0] = io.nextInt();
-        aSum[0] = a[0];
+        fa[0] = a[0];
         for (int i = 1; i < n; i++) {
             int ai = io.nextInt();
             a[i] = ai;
 
             // 就寝時の累計睡眠時間 = 起床時と同じ値
-            if (i%2 == 0) aSum[i] = aSum[i-1];
+            if (i%2 == 1) fa[i] = fa[i-1];
             // 起床時の累計睡眠時間
-            else aSum[i] = aSum[i-1] + a[i] - a[i-1];
+            else fa[i] = fa[i-1] + a[i] - a[i-1];
         }
 
         int q = io.nextInt();
@@ -32,32 +33,28 @@ public class SleepLog {
 
         List<Long> result = new ArrayList<>();
         for (int i = 0; i < q; i++) {
-            int idxL = calculateIndex(a, l[i], 0, false);
-            int idxR = calculateIndex(a, r[i], idxL, true);
-
-            System.out.println("idxL = " + idxL + ", idxR = " + idxR);
-
-            result.add(aSum[idxR] - aSum[idxL]);
+            result.add(fx(a, fa, r[i]) - fx(a, fa, l[i]));
         }
 
         io.outputList(result, "\n");
     }
 
-    private static int calculateIndex(int[] array, int value, int idxStart, boolean isLeft) {
-        System.out.println("value = " + value);
-        int index = idxStart;
+    // fx := x 分までに何分寝たか
+    private static long fx(int[] a, long[] fa, int x) {
+        // aj <= x <= aj+1 となるj を求める
+        int j = 0;
         int min = Integer.MAX_VALUE;
-        for (int i = idxStart, len = array.length; i < len; i++) {
-            // value の近傍かつ、差が0以上のindexを求める
-            if (0 <= array[i]-value && min > array[i]-value) {
-                index = i;
-                min = array[i]-value;
+        for (int i = 0, len = a.length; i < len; i++) {
+            if (x-a[i] >= 0 && x-a[i] < min ) {
+                j = i;
+                min = x-a[i];
             }
         }
-        System.out.println("index = " + index);
-
-        if (isLeft) return Math.max(0, index-1);
-        return Math.min(array.length-1, index);
+        System.out.println("j = " + j);
+        j = Math.min(j, a.length-2);
+        long result = fa[j] + (x - a[j]) * (fa[j+1] - fa[j]) / (a[j+1] - a[j]);
+        System.out.println("result = " + result);
+        return result;
     }
 
     private static class IOHandler {
