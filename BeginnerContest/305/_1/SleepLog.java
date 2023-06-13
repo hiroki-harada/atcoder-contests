@@ -6,9 +6,9 @@ public class SleepLog {
         IOHandler io = new IOHandler();
 
         int n = io.nextInt();
-        int[] a = new int[n];
+        Integer[] a = new Integer[n];
         // fa[i] := a[i] 分までに何分寝たか
-        long[] fa = new long[n];
+        Integer[] fa = new Integer[n];
 
         a[0] = io.nextInt();
         fa[0] = a[0];
@@ -40,21 +40,15 @@ public class SleepLog {
     }
 
     // fx := x 分までに何分寝たか
-    private static long fx(int[] a, long[] fa, int x) {
+    private static long fx(Integer[] a, Integer[] fa, int x) {
         // aj <= x <= aj+1 となるj を求める
-        int j = 0;
-        int min = Integer.MAX_VALUE;
-        for (int i = 0, len = a.length; i < len; i++) {
-            if (x-a[i] >= 0 && x-a[i] < min ) {
-                j = i;
-                min = x-a[i];
-            }
-        }
+        int j = ~Collections.binarySearch(Arrays.asList(a), x, ((m, n) -> m.compareTo(n) > 0 ? 1 : -1)) - 1;
         System.out.println("j = " + j);
+
+        // j が上限を超えないための小細工
         j = Math.min(j, a.length-2);
-        long result = fa[j] + (x - a[j]) * (fa[j+1] - fa[j]) / (a[j+1] - a[j]);
-        System.out.println("result = " + result);
-        return result;
+        // y = y0 + (x - x0) * a を解く
+        return fa[j] + (x - a[j]) * (fa[j+1] - fa[j]) / (a[j+1] - a[j]);
     }
 
     private static class IOHandler {
