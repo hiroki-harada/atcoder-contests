@@ -417,6 +417,12 @@
 | C: Snuke the Cookie Picker                    | F-   | 単純ループ | 2023/06/10 | ---------- |
 
 
+| [No. 306](https://atcoder.jp/contests/abc306) | rank | type | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
+| A: Echo                                       | G-   | ?    | 2023/06/17 | ---------- |
+| B: Base 2                                     | G-   |      | 2023/06/17 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
