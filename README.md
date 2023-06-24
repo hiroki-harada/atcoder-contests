@@ -423,6 +423,12 @@
 | B: Base 2                                     | G-   |      | 2023/06/17 | ---------- |
 
 
+| [No. 307](https://atcoder.jp/contests/abc307) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Weekly Records                             |      | 単純ループ | 2023/06/24 | ---------- |
+| B: racecar                                    |      | 単純ループ | 2023/06/24 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
