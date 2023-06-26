@@ -5,16 +5,30 @@ public class MismatchedParentheses {
 
         IOHandler io = new IOHandler();
         io.nextInt();  // discard n
-        String s = io.nextStr();
+        var s = io.nextStr().toCharArray();
         io.close();
 
-        long cntRight = s.chars().filter(c -> c == '(').count();
-        while (cntRight-- > 0) {
-            String t = s.replaceAll("\\([a-z]{0,}\\)", "");
-            if (t.equals(s)) break;
-            s = t;
+        var indexStore = new ArrayList<Integer>();
+        var result = new StringBuilder();
+        for (int i = 0, len = s.length; i < len; i++) {
+            if (s[i] == '(') {
+                result.append(s[i]);
+                indexStore.add(i);
+            }
+            else  if (s[i] == ')') {
+                if (indexStore.isEmpty()) {
+                    result.append(s[i]);
+                } else {
+                    result = new StringBuilder(result.substring(0, indexStore.get(Math.max(0, indexStore.size()-1))));
+                    indexStore.remove(Math.max(0, indexStore.size()-1));
+                }
+
+            }
+            else {
+                result.append(s[i]);
+            }
         }
-        io.output(s);
+        io.output(result.toString());
     }
 
     private static class IOHandler {
