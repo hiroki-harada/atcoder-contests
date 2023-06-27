@@ -8,7 +8,7 @@ public class MismatchedParentheses {
         var s = io.nextStr().toCharArray();
         io.close();
 
-        var indexStore = new ArrayList<Integer>();
+        var indexStore = new LinkedList<Integer>();
         var result = new StringBuilder();
         for (int i = 0, len = s.length; i < len; i++) {
             if (s[i] == '(') {
@@ -17,10 +17,14 @@ public class MismatchedParentheses {
             }
             else  if (s[i] == ')') {
                 if (indexStore.isEmpty()) {
+                    // 括弧が閉じていない場合
                     result.append(s[i]);
                 } else {
-                    result = new StringBuilder(result.substring(0, indexStore.get(Math.max(0, indexStore.size()-1))));
-                    indexStore.remove(Math.max(0, indexStore.size()-1));
+                    // 括弧が閉じている場合
+                    int last = indexStore.removeLast();
+
+                    // last 番目以降の文字を削除
+                    result = new StringBuilder(result.substring(0, last));
                 }
 
             }
