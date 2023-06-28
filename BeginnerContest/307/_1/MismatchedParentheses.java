@@ -4,27 +4,29 @@ public class MismatchedParentheses {
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
-        io.nextInt();  // discard n
+        int n = io.nextInt();
         var s = io.nextStr().toCharArray();
         io.close();
 
-        var indexStore = new LinkedList<Integer>();
+        var indexStore = 0;
         var result = new StringBuilder();
+        var p = new int[n];
         for (int i = 0, len = s.length; i < len; i++) {
             if (s[i] == '(') {
+                p[indexStore] = result.length();
+                indexStore++;
                 result.append(s[i]);
-                indexStore.add(i);
             }
             else  if (s[i] == ')') {
-                if (indexStore.isEmpty()) {
+                if (indexStore == 0) {
                     // 括弧が閉じていない場合
                     result.append(s[i]);
                 } else {
                     // 括弧が閉じている場合
-                    int last = indexStore.removeLast();
+                    indexStore--;
 
                     // last 番目以降の文字を削除
-                    result = new StringBuilder(result.substring(0, last));
+                    result.delete(p[indexStore], result.length());
                 }
 
             }
