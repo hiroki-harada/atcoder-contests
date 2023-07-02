@@ -431,6 +431,13 @@
 | D: Mismatched Parentheses                     | F+   | 単純ループ/工夫 | 2023/06/28 |            |
 
 
+| [No. 308](https://atcoder.jp/contests/abc308) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: New Scheme                                 | G-   | 単純ループ | 2023/07/01 | ---------- |
+| B: Default Price                              | G-   | 単純ループ | 2023/07/01 | ---------- |
+| C: Standings                                  | F    | 単純ループ | 2023/07/02 |            |
+| D: Snuke Maze                                 | F    | DFS/BFS    | 2023/07/02 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
