@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Centers {
     public static void main(String[] args) {
@@ -8,27 +9,27 @@ public class Centers {
         var a = io.nextIntArray(3*n);
         io.close();
 
+        // key:= Ai 数列の各値(1~N)、value:= i 数列のindexのリスト
         var mapCntValue = new HashMap<Integer, List<Integer>>();
         for (int i = 0; i < 3*n; i++) {
-            if (!mapCntValue.containsKey(a[i])) mapCntValue.put(a[i], new ArrayList<Integer>());
-
-
-
+            mapCntValue.computeIfAbsent(a[i], key -> new ArrayList<>()).add(i);
         }
 
-        // key := A, value := f(A)
-        var result = new HashMap<Integer, Integer>();
+        // key := Ai 数列の各値(1~N), value := f(Ai) Ai の真ん中の添え字
+        var mapMiddleIndex = new HashMap<Integer, Integer>();
         for (var cntValue : mapCntValue.entrySet()) {
             var listIndex = cntValue.getValue();
-            result.put(cntValue.getKey(), listIndex.get(listIndex.size()/2 +1));
+            // Ai は3回だけ登場するため、Aiの中央のindexは、必ず 1 になる
+            mapMiddleIndex.put(cntValue.getKey(), listIndex.get(1));
         }
 
-        io.output(
-            result.entrySet().stream()
-                .sorted((e1, e2) -> e1.getValue().compareTo(e2.getValue()))
-                .map(e -> e.getKey().toString())
-                .reduce("", (str1, str2) -> str1 + " " + str2)
-        );
+        // 真ん中の添え字の昇順でソートして、数列の値を " " 区切りで出力する
+        String result = mapMiddleIndex.entrySet().stream()
+            .sorted(Map.Entry.comparingByValue())
+            .map(e -> e.getKey().toString())
+            .collect(Collectors.joining(" "));
+
+        io.output(result);
     }
 
     private static class IOHandler {
