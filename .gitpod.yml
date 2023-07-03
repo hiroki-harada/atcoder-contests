@@ -1,0 +1,5 @@
+
+tasks:
+- name: mkd; command of make first direcotory
+  command: |
+    export PATH=$PATH:/workspace/atcoder-java/command

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [[ $1 = "" ]]; then
+  echo "Error : Requires an argument" 1>&2
+  exit 1
+elif [[ $# -gt 1 ]]; then
+  echo "Error : Too many arguments" 1>&2
+  exit 2
+fi
+
+mkdir ${1}/
+mkdir ${1}/_1/
+
+exit 0
