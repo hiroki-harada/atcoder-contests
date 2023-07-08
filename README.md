@@ -440,6 +440,13 @@
 | C: Standings                                  | F    | 単純ループ | 2023/07/02 |            |
 | D: Snuke Maze                                 | F    | DFS/BFS    | 2023/07/02 |            |
 
+
+| [No. 309](https://atcoder.jp/contests/abc309) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Nine                                       | G-   | -          | 2023/07/08 |            |
+| B: Rotate                                     | G-   | 単純ループ | 2023/07/08 |            |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
