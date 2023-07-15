@@ -449,6 +449,12 @@
 | D: Add One Edge                               | F    | BFS             | 2023/07/08 |            |
 
 
+| [No. 310](https://atcoder.jp/contests/abc310) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Order Something Else                       | G-   | 計算       | 2023/07/15 | ---------- |
+| B: Strictly Superior                          | G    | 単純ループ | 2023/07/15 |            |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
