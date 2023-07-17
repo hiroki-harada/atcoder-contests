@@ -385,6 +385,7 @@
 | A: Overall Winner                             | G-   | 文字列操        | 2023/05/13 | ---------- |
 | B: Fill the Gaps                              | G-   | 単純ループ      | 2023/05/13 | ---------- |
 | C: AtCoder Cards                              | G+   | 単純ループ/工夫 | 2023/05/15 |            |
+| D: Bitmask                                    | E-   | 単純ループ/工夫 | 2023/07/17 |            |
 
 
 | [No. 302](https://atcoder.jp/contests/abc302) | rank | type            | tried at   | ---------- |
