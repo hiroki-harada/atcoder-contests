@@ -377,7 +377,7 @@
 | A: N-choice question                          | G-   | 単純ループ      | 2023/04/29 | ---------- |
 | B: Same Map in the RPG World                  | G+   | 全探査          | 2023/05/05 |            |
 | C: Cross                                      | F-   | 単純ループ/工夫 | 2023/05/05 |            |
-| D: AABBCC                                     | E-   |                 | 2023/04/29 |            |
+| D: AABBCC                                     | E-   | 単純ループ/工夫 | 2023/07/20 |            |
 
 
 | [No. 301](https://atcoder.jp/contests/abc301) | rank | type            | tried at   | ---------- |
