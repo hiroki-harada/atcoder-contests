@@ -459,8 +459,8 @@
 
 | [No. 311](https://atcoder.jp/contests/abc311) | rank | type | tried at   | ---------- |
 | --------------------------------------------- | ---- | ---- | ---------- | ---------- |
-| A: First ABC                                  | G-   |      | 2023/07/22 |            |
-| B: Vacation Together                          | G-   |      | 2023/07/22 |            |
+| A: First ABC                                  | G-   |      | 2023/07/22 | ---------- |
+| B: Vacation Together                          | G-   |      | 2023/07/22 | ---------- |
 | C: Find it!                                   | F-   |      | 2023/07/22 |            |
 
 

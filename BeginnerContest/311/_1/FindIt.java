@@ -2,35 +2,30 @@ import java.util.*;
 
 public class FindIt {
 
-    static List<List<Integer>> graph;
-    static boolean[] isVisited;
-    static LinkedList<Integer> roop;
-
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
         int n = io.nextInt();
-        graph = new ArrayList<>();
-        for (int i = 0; i <= n; i++) graph.add(new ArrayList<>());
-        for (int i = 1; i <= n; i++) {
-            int ai = io.nextInt();
-            graph.get(i).add(ai);
-        }
+        int[] a = io.nextIntArray(n);
         io.close();
 
-        roop = new LinkedList<>();
-        isVisited = new boolean[n+1];
+        LinkedList<Integer> roop = new LinkedList<>();
+        boolean[] isVisited = new boolean[n+1];
 
-        for (int i = 0; i < args.length; i++) {
-            if (dfs(i)) break;
+        // 適当な点からスタート
+        int current = 1;
+        while (!isVisited[current]) {
+            // current を起点とする適当な点を、次点とする
+            roop.add(current);
+            isVisited[current] = true;
+            current = a[current-1];
         }
 
         // 既出の点の次から末尾の点までを答えのリストに設定
-        // a -> b -> c -> d -> b
-        // c, d, b を取り出す
+        // a -> b -> c -> d -> (b)
+        // b, c, d を取り出す
         List<Integer> result = new ArrayList<>();
-        int start = roop.getLast();
-        for (int i = start+1; i < roop.size(); i++) {
+        for (int i = roop.indexOf(current), size = roop.size(); i < size; i++) {
             result.add(roop.get(i));
         }
 
@@ -38,29 +33,15 @@ public class FindIt {
         io.outputList(result, " ");
     }
 
-    private static boolean dfs(int current) {
-        if (isVisited[current]) return false;
-        roop.add(current);
-        isVisited[current] = true;
-
-        for (int next : graph.get(current)) {
-            if (!isVisited[next]) {
-                if (dfs(next)) return true;
-            } else if (roop.contains(next)) {
-                // 閉路を見つけたら、main まで戻る
-                roop.add(next);
-                return true;
-            }
-        }
-
-        roop = new LinkedList<>();
-        return false;
-    }
-
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
         private int nextInt() {return this.sc.nextInt();}
+        private int[] nextIntArray(int size) {
+            int[] array = new int[size];
+            for (int i = 0; i < size; i++) array[i] = this.sc.nextInt();
+            return array;
+        }
         private void output(int result) {System.out.println(result);}
         private <T> void outputList(List<T> list, String delimiter) {
             StringBuilder result = new StringBuilder();
