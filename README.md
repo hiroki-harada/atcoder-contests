@@ -464,6 +464,11 @@
 | C: Find it!                                   | F-   |      | 2023/07/22 |            |
 
 
+| [No. 312](https://atcoder.jp/contests/abc312) | rank | type | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
+| A: Chord                                      | G-   |      | 2023/07/29 |            |
+| B: TaK Code                                   | G    |      | 2023/08/03 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
