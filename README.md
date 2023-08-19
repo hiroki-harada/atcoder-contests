@@ -476,6 +476,16 @@
 | A: To Be Saikyo                               | G-   | 単純ループ | 2023/08/05 | ---------- |
 | B: Who is Saikyo?                             | G    | DFS        | 2023/08/05 |            |
 
+
+| [No. 314](https://atcoder.jp/contests/abc314) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: 3.14                                       | G-   | 計算            | 2023/08/12 |            |
+| B: Roulette                                   | G    | 単純ループ      | 2023/08/12 |            |
+| C: Rotate Colored Subsequence                 | G+   |                 | 2023/08/13 |            |
+| D: LOWER                                      | F    | 単純ループ/工夫 | 2023/08/12 |            |
+
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
