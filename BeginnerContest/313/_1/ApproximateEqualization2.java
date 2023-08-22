@@ -5,36 +5,40 @@ public class ApproximateEqualization2 {
 
         IOHandler io = new IOHandler();
         int n = io.nextInt();
-        List<Integer> a = io.nextList(n);
+        int[] a = io.nextIntArray(n);
         io.close();
 
         // ポイント：不変量に注目する
         // 今回だと、操作前後の S = sum(a) は不変
 
         // 操作後の数列をソートすると、x, x, x, x+1, x+1, ... のような数列になる
-        // -> S = nx + r とすると, x = S/n, r = S%n
+        // -> S = nx + r とすると, x = S/n, r = S%n・・・★
 
         // A に対して操作を行った後の数列を B とする(A は操作前にソートされているとする)
         // A1, A2, ..., An-1, An, B1, B2, ..., Bn-1, Bn に対して、
         // |Ai-Bi| がなるべく小さくなるようにしたい (逆に、最小でない場合は、無駄に操作している事になる)
         // 1回の操作で、Σ|Ai-Bi| は ±2 変動するので、Σ|Ai-Bi|/2 が求める操作回数
+        // さらに、その中でも、操作回数が最小になるものを求めればよい
 
-        // という訳で、まずはソート
-        Collections.sort(a);
+        long sum = Arrays.stream(a).sum();
+        Arrays.sort(a);
+        int[] b = new int[n];
+        Arrays.fill(b, (int)sum/n);
+        for (int i = 0; i < sum % n; i++) b[n - 1 - i]++;
 
-        long cntResult = 0;
-
-        io.output(cntResult);
+        long result = 0;
+        for (int i = 0; i < n; i++) result += Math.abs(a[i] - b[i]);
+        io.output(result/2);
     }
 
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
         private int nextInt() {return this.sc.nextInt();}
-        private List<Integer> nextList(int size) {
-            List<Integer> list = new ArrayList<>();
-            for (int i = 0; i < size; i++) list.add(this.sc.nextInt());
-            return list;
+        private int[] nextIntArray(int size) {
+            int[] array = new int[size];
+            for (int i = 0; i < size; i++) array[i] = this.sc.nextInt();
+            return array;
         }
         private void output(long result) {System.out.println(result);}
     }
