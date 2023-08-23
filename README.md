@@ -471,10 +471,12 @@
 | B: TaK Code                                   | G    |      | 2023/08/03 |            |
 
 
-| [No. 313](https://atcoder.jp/contests/abc313) | rank | type       | tried at   | ---------- |
-| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
-| A: To Be Saikyo                               | G-   | 単純ループ | 2023/08/05 | ---------- |
-| B: Who is Saikyo?                             | G    | DFS        | 2023/08/05 |            |
+| [No. 313](https://atcoder.jp/contests/abc313) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: To Be Saikyo                               | G-   | 単純ループ      | 2023/08/05 | ---------- |
+| B: Who is Saikyo?                             | G    | DFS             | 2023/08/05 |            |
+| C: Approximate Equalization 2                 | F    | 単純ループ/工夫 | 2023/08/24 |            |
+| D:                                            |      |                 | 2023/08/05 |            |
 
 
 | [No. 314](https://atcoder.jp/contests/abc314) | rank | type            | tried at   | ---------- |
