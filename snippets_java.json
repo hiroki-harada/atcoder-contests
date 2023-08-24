@@ -127,12 +127,32 @@
 		],
 		"description": "util class for Some Mathematics on java"
 	},
-
 	"number of data sets": {
 		"prefix": "nm java",
 		"body": [
 			"int n = io.nextInt();",
 			"int m = io.nextInt();"
+		],
+		"description": ""
+	},
+	"for-roop n times": {
+		"prefix": "forn",
+		"body": [
+			"for (int i = 0; i < n; i++) {",
+			"    ",
+			"}"
+		],
+		"description": ""
+	},
+	"declare and read n times array a/b": {
+		"prefix": "ab of array",
+		"body": [
+			"int[] a = new int[n];",
+			"int[] b = new int[n];",
+			"for (int i = 0; i < n; i++) {",
+			"    a[i] = io.nextInt();",
+			"    b[i] = io.nextInt();",
+			"}"
 		],
 		"description": ""
 	}
