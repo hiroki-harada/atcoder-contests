@@ -1,24 +1,17 @@
 import java.util.*;
 
-public class Potion {
+public class MissingNo {
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
         int n = io.nextInt();
-        int h = io.nextInt();
-        int x = io.nextInt();
-        int[] p = io.nextIntArray(n);
+        int[] a = io.nextIntArray(n);
         io.close();
 
-        int resultIdx = 0;
-        for (int i = 0; i < n; i++) {
-            if (h+p[i] >= x) {
-                resultIdx = i+1;
-                break;
-            }
-        }
-
-        io.output(resultIdx);
+        Arrays.sort(a);
+        int sumA = Arrays.stream(a).sum();
+        int fixedSumA = (a[0]+a[n-1])*(n+1) / 2;
+        io.output(fixedSumA - sumA);
     }
 
     private static class IOHandler {
