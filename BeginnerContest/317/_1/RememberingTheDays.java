@@ -17,7 +17,31 @@ public class RememberingTheDays {
         }
         io.close();
 
-        io.output(0);
+        int[] current = new int[n];
+        boolean[] isDecided = new boolean[n];
+        Queue<State> priorityQue = new ArrayDeque<>();
+
+        // 初期化
+        current[0] = 0;
+        Arrays.fill(current, Integer.MAX_VALUE);
+        priorityQue.add(new State(current[0], 0));
+
+        while (!priorityQue.isEmpty()) {
+            // 未到達の点を取り出す
+            int cur = priorityQue.remove().position;
+            if (isDecided[cur]) continue;
+
+            isDecided[cur] = true;
+            for (int i = 0, size = graph.get(cur).size(); i < size; i++) {
+                Edge edge = graph.get(cur).get(i);
+                if (current[edge.to] < current[cur] + edge.length) {
+                    current[edge.to] = current[cur] + edge.length;
+                    priorityQue.add(new State(current[edge.to], edge.to));
+                }
+            }
+        }
+
+        io.output(Arrays.stream(current).sum());
     }
 
     /**
@@ -36,16 +60,16 @@ public class RememberingTheDays {
      * ダイクストラ法の (cur[x], x) を管理するクラス（cur[x] = dist, x = pos に対応）
      */
     static class State implements Comparable<State> {
-        int dist;
-        int pos;
+        int distance;
+        int position;
         public State(int dist, int pos) {
-            this.dist = dist;
-            this.pos = pos;
+            this.distance = dist;
+            this.position = pos;
         }
         @Override
         public int compareTo(State s) {
-            if (this.dist < s.dist) return -1;
-            if (this.dist > s.dist) return  1;
+            if (this.distance < s.distance) return -1;
+            if (this.distance > s.distance) return  1;
             return 0;
         }
     }
