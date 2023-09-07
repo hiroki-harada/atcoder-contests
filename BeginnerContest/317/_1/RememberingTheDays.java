@@ -31,6 +31,7 @@ public class RememberingTheDays {
             int cur = priorityQue.remove().position;
             if (isDecided[cur]) continue;
 
+            // 最長距離を確定させた頂点 cur に隣接する頂点に対し、距離の暫定値curを更新する
             isDecided[cur] = true;
             for (int i = 0, size = graph.get(cur).size(); i < size; i++) {
                 Edge edge = graph.get(cur).get(i);
