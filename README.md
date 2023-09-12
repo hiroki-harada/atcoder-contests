@@ -507,6 +507,13 @@
 | B: Overlapping sheets                         | G-   | 単純ループ  | 2023/09/02 | ---------- |
 | C: Blue Spring                                | F-   | 累積和/工夫 | 2023/09/03 |            |
 
+
+| [No. 319](https://atcoder.jp/contests/abc319) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Legendary Players                          | G-   | 文字列操作 | 2023/09/12 | ---------- |
+| B: Measure                                    | G-   | 文字列操作 | 2023/09/12 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
