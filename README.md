@@ -557,10 +557,11 @@
 | A61: Adjacent Vertices                                  | graph          | 2023/01/01 |     |
 | A62: Depth First Search                                 | DFS            | 2023/01/12 |     |
 | A63: Shortest Path 1                                    | BFS            | 2023/02/05 |     |
-| A64: Shortest Path 2                                    | ダイクストラ法 | 2023/02/07 |     |
+| A64: Shortest Path 2                                    | Dijkstra alg.. | 2023/02/07 |     |
 | A65: Road to Promotion                                  | DP             | 2023/03/15 |     |
+| A66: Connect Query                                      | Union Find Tre | 2023/09/12 |     |
 | B61: Influencer                                         | graph          | 2023/01/04 |     |
 | B62: Print a Path                                       | DFS            | 2023/01/14 |     |
-| B63: Breadth First Search(誤字あり)                     | BFS            | 2023/02/05 |     |
+| B63: Breadth First Search                               | BFS            | 2023/02/05 |     |
 | B64: Shortest Path with Restoration                     | BFS            | 2023/02/05 |     |
 | B65: Road to Promotion Hard                             | DFS            | 2023/04/25 |     |
