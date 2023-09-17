@@ -13,6 +13,12 @@ public class InvisibleHand {
 
         Arrays.sort(a);
         Arrays.sort(b);
+
+        // 1~100,000,000 の範囲で2分探査
+        int right = 0, left = 100_000_000;
+        while (right+1 < left) {
+
+        }
     }
 
     private static class IOHandler {
