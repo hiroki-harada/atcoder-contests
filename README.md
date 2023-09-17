@@ -465,10 +465,11 @@
 | D: Grid Ice Floor                             | E-   |      | 2023/07/22 |            |
 
 
-| [No. 312](https://atcoder.jp/contests/abc312) | rank | type | tried at   | ---------- |
-| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
-| A: Chord                                      | G-   |      | 2023/07/29 |            |
-| B: TaK Code                                   | G    |      | 2023/08/03 |            |
+| [No. 312](https://atcoder.jp/contests/abc312) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Chord                                      | G-   | 単純ループ      | 2023/07/29 | ---------- |
+| B: TaK Code                                   | G    | 単純ループ      | 2023/08/03 | ---------- |
+| C: Invisible Hand                             | F+   | 2分探査 or 工夫 | 2023/09/18 |            |
 
 
 | [No. 313](https://atcoder.jp/contests/abc313) | rank | type            | tried at   | ---------- |
