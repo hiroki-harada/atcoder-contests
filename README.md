@@ -40,11 +40,7 @@
 
 # contests result
 ## RegularContest
-| [No. 153](https://atcoder.jp/contests/arc153) | type | tried at   |
-| --------------------------------------------- | ---- | ---------- |
-| A: 	AABCDDEFE                                 |      | 2023/01/14 |
-| B:                                            |      | 2023/01/14 |
-| C:                                            |      | 2023/01/14 |
+
 
 
 ## BeginnerContest
