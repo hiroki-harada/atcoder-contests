@@ -514,6 +514,11 @@
 | B: Measure                                    | G-   | 文字列操作 | 2023/09/12 | ---------- |
 
 
+| [No. 320](https://atcoder.jp/contests/abc320) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Leyland Number                             | G-   | 計算       | 2023/09/16 | ---------- |
+| B: Longest Palindrome                         | G-   | 単純ループ | 2023/09/16 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
