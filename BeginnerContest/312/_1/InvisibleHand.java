@@ -14,11 +14,23 @@ public class InvisibleHand {
         Arrays.sort(a);
         Arrays.sort(b);
 
-        // 1~100,000,000 の範囲で2分探査
-        int right = 0, left = 100_000_000;
+        // bi = b_max + 1 = 100,000,001 の可能性があるため
+        // 1~100,000,001 の範囲で2分探査
+        int right = 0, left = 1_000_000_001;
         while (right+1 < left) {
+            // 探索範囲が存在する間だけ実行
 
+            // 中間地点ギリギリの値を、a,bにおいてそれぞれ求める
+            int center = (right+left)/2;
+            int ai = 0, bi = 0;
+            for (int i = 0; i < n; i++) if (a[i] <= center) ai++;
+            for (int i = 0; i < m; i++) if (b[i] >= center) bi++;
+
+            // 探索範囲の絞り込み(でもどうしてこれで上手くいくか分からない)
+            if (ai >= bi) left = center; else right = center;
         }
+
+        io.output(left);
     }
 
     private static class IOHandler {
@@ -31,21 +43,5 @@ public class InvisibleHand {
             return array;
         }
         private void output(int result) {System.out.println(result);}
-        private <T> void output(T result) {System.out.println(result);}
-        private void outputIntArray(int[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputArray(T[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputList(List<T> list, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (T e : list)  result.append(e).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
     }
 }
