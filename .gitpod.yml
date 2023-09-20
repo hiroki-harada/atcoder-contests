@@ -1,3 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
 - name: mkd; command of make first direcotory
