@@ -16,6 +16,37 @@ map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
 ```
 
 
+## n進数
+```java
+// reference(Integer に限定)
+// https://docs.oracle.com/javase/jp/17/docs/api/java.base/java/lang/Integer.html
+
+/**
+ * n進数表記
+ */
+// 文字列str を、n進数i_n として定義
+int i_n = Integer.parseInt(str, n);
+
+// parseInt("0", 10) returns 0
+// parseInt("+42", 10) returns 42
+// parseInt("99", 8) throws a NumberFormatException
+// parseInt("Kona", 10) throws a NumberFormatException
+// parseInt("Kona", 27) returns 411787
+
+
+/**
+ * n進数変換
+ */
+// 10進数i_10 -> 2,8,16進数
+int i_2 = Integer.toBinaryString(i_10);
+int i_8 = Integer.toOctalString(i_10);
+int i_16 = Integer.toHexString(i_10);
+
+// 10進数i_m -> n進数i_n
+int i_n = Integer.parseInt(Integer.toString(i_m, n));
+```
+
+
 ## 文字列中の最長回文判定
 ```java
 // reference
