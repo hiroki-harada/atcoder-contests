@@ -544,7 +544,9 @@
 
 | [Typical90](https://atcoder.jp/contests/typical90) | rank  | type       | tried at   |            |
 | -------------------------------------------------- | :---: | ---------- | ---------- | ---------- |
+| 002: Encyclopedia of Parentheses                   |   3   | bit全探索  | 2023/09/22 |            |
 | 004: Cross Sum                                     |   2   | 累積和     | 2022/11/09 |            |
+| 007: CP Classes                                    |   3   | 2分探査    | 2023/09/22 | ---------- |
 | 010: Score Sum Queries                             |   2   | 累積和     | 2022/11/12 |            |
 | 022: Cubic Cake                                    |   2   | GCD        | 2022/11/18 |            |
 | 024: Select +／- One                               |   2   | 単純ループ | 2022/11/18 | ---------- |
