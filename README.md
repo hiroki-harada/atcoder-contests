@@ -542,16 +542,17 @@
 | ABC086C:    Traveling                                 |                | 2021/09/25 | 2022/10/09 |            |            |
 
 
-| [Typical90](https://atcoder.jp/contests/typical90) | type       | tried at   |     |
-| -------------------------------------------------- | ---------- | ---------- | --- |
-| 004: Cross Sum                                     | 累積和     | 2022/11/09 |     |
-| 010: Score Sum Queries                             | 累積和     | 2022/11/12 |     |
-| 022: Cubic Cake                                    | GCD        | 2022/11/18 |     |
-| 024: Select +／- One                               | 単純ループ | 2022/11/18 | --- |
-| 027: Sign Up Requests                              | 単純ループ | 2022/11/18 | --- |
-| 033: Not Too Bright                                | 工夫       | 2022/11/24 | --- |
-| 055: Select 5                                      | 全探索/DP? | 2023/03/25 |     |
-| 061: Deck                                          | 単純ループ | 2023/03/29 | --- |
+| [Typical90](https://atcoder.jp/contests/typical90) | rank  | type       | tried at   |            |
+| -------------------------------------------------- | :---: | ---------- | ---------- | ---------- |
+| 004: Cross Sum                                     |   2   | 累積和     | 2022/11/09 |            |
+| 010: Score Sum Queries                             |   2   | 累積和     | 2022/11/12 |            |
+| 022: Cubic Cake                                    |   2   | GCD        | 2022/11/18 |            |
+| 024: Select +／- One                               |   2   | 単純ループ | 2022/11/18 | ---------- |
+| 027: Sign Up Requests                              |   2   | 単純ループ | 2022/11/18 | ---------- |
+| 033: Not Too Bright                                |   2   | 工夫       | 2022/11/24 | ---------- |
+| 055: Select 5                                      |   2   | 全探索/DP? | 2023/03/25 |            |
+| 061: Deck                                          |   2   | 単純ループ | 2023/03/29 | ---------- |
+| 0xx:                                               |   ?   |            | 2023/mm/dd |            |
 
 
 | [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type           | tried at   |     |
