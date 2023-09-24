@@ -516,6 +516,13 @@
 | A: Leyland Number                             | G-   | 計算       | 2023/09/16 | ---------- |
 | B: Longest Palindrome                         | G-   | 単純ループ | 2023/09/16 | ---------- |
 
+
+| [No. 321](https://atcoder.jp/contests/abc321) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: 321-like Checker                           | G-   | 単純ループ | 2023/09/23 | ---------- |
+| B: Cutoff                                     | G    | 全探査     | 2023/09/23 |            |
+| C: 321-like Searcher                          | F    | bit全探索  | 2023/09/23 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
