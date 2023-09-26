@@ -549,21 +549,21 @@
 | ABC086C:    Traveling                                 |                | 2021/09/25 | 2022/10/09 |            |            |
 
 
-| [Typical90](https://atcoder.jp/contests/typical90) | rank  | type       | tried at   |            |
-| -------------------------------------------------- | :---: | ---------- | ---------- | ---------- |
-| 002: Encyclopedia of Parentheses                   |   3   | bit全探索  | 2023/09/22 |            |
-| 004: Cross Sum                                     |   2   | 累積和     | 2022/11/09 |            |
-| 007: CP Classes                                    |   3   | 2分探査    | 2023/09/22 | ---------- |
-| 010: Score Sum Queries                             |   2   | 累積和     | 2022/11/12 |            |
-| 022: Cubic Cake                                    |   2   | GCD        | 2022/11/18 |            |
-| 024: Select +／- One                               |   2   | 単純ループ | 2022/11/18 | ---------- |
-| 027: Sign Up Requests                              |   2   | 単純ループ | 2022/11/18 | ---------- |
-| 033: Not Too Bright                                |   2   | 工夫       | 2022/11/24 | ---------- |
-| 055: Select 5                                      |   2   | 全探索/DP? | 2023/03/25 |            |
-| 061: Deck                                          |   2   | 単純ループ | 2023/03/29 | ---------- |
-| 067: Base 8 to 9                                   |   2   | 単純ループ | 2023/09/22 | ---------- |
-| 078: Easy Graph Problem                            |   2   | 単純ループ | 2023/09/22 | ---------- |
-| 0xx:                                               |   ?   |            | 2023/mm/dd |            |
+| [Typical90](https://atcoder.jp/contests/typical90) | rank  | type              | tried at   |            |
+| -------------------------------------------------- | :---: | ----------------- | ---------- | ---------- |
+| 002: Encyclopedia of Parentheses                   |   3   | bit全探索         | 2023/09/22 |            |
+| 004: Cross Sum                                     |   2   | 累積和            | 2022/11/09 |            |
+| 007: CP Classes                                    |   3   | 2分探査           | 2023/09/22 | ---------- |
+| 010: Score Sum Queries                             |   2   | 累積和            | 2022/11/12 |            |
+| 014: We Used to Sing a Song Together               |   3   | 単純ループ/工夫？ | 2023/09/26 | ---------- |
+| 022: Cubic Cake                                    |   2   | GCD               | 2022/11/18 |            |
+| 024: Select +／- One                               |   2   | 単純ループ        | 2022/11/18 | ---------- |
+| 027: Sign Up Requests                              |   2   | 単純ループ        | 2022/11/18 | ---------- |
+| 033: Not Too Bright                                |   2   | 工夫              | 2022/11/24 | ---------- |
+| 055: Select 5                                      |   2   | 全探索/DP?        | 2023/03/25 |            |
+| 061: Deck                                          |   2   | 単純ループ        | 2023/03/29 | ---------- |
+| 067: Base 8 to 9                                   |   2   | 単純ループ        | 2023/09/22 | ---------- |
+| 078: Easy Graph Problem                            |   2   | 単純ループ        | 2023/09/22 | ---------- |
 
 
 | [TessokuBook](https://atcoder.jp/contests/tessoku-book) | type           | tried at   |     |
