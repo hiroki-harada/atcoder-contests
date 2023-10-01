@@ -4,25 +4,30 @@ public class MinimumCoins {
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
-        int n = io.nextInt();
-        int a = io.nextInt();
-        int b = io.nextInt();
-        int c = io.nextInt();
+        long n = io.nextLong();
+        long a = io.nextLong();
+        long b = io.nextLong();
+        long c = io.nextLong();
         io.close();
 
-        int result = 0;
-        result += n/c;
-        n %= c;
-        result += n/b;
-        n %= b;
-        result += n/a;
+        long result = 9999;
+        for (int i = 0; i < 10_000; i++) {
+            for (int j = 0; j < 10_000; j++) {
+
+                long tmp = a*i + b*j;
+                if (tmp > n || (n-tmp)%c != 0) continue;
+
+                result = Math.min(result, i + j + (n-tmp)/c);
+            }
+        }
+
         io.output(result);
     }
 
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
-        private int nextInt() {return this.sc.nextInt();}
-        private void output(int result) {System.out.println(result);}
+        private long nextLong() {return this.sc.nextLong();}
+        private void output(long result) {System.out.println(result);}
     }
 }
