@@ -1,57 +1,72 @@
 import java.util.*;
 
 public class ConnectQuery {
+
+    static int[] parent;
+    static int[] sizeOfTree;
+
+    private static final int NONE = -1;
+
     public static void main(String[] args) {
+
 
         IOHandler io = new IOHandler();
         int n = io.nextInt();
         int q = io.nextInt();
+        int[] query = new int[q];
+        int[] u = new int[q];
+        int[] v = new int[q];
+        for (int i = 0; i < q; i++) {
+            query[i] = io.nextInt();
+            u[i] = io.nextInt();
+            v[i] = io.nextInt();
+        }
         io.close();
 
+        parent = new int[n+1];
+        sizeOfTree = new int[n+1];
+        Arrays.fill(parent, NONE);
+        Arrays.fill(sizeOfTree, 1);
+
+        for (int i = 0; i < q; i++) {
+            if (query[i] == 1) {
+                unite(u[i], v[i]);
+            }
+            if (query[i] == 2) {
+                io.output(root(u[i]) == root(v[i]) ? "Yes" : "No");
+            }
+        }
     }
+
+    // 頂点x の根を返す
+    static int root(int x) {
+        while (parent[x] != NONE) x = parent[x];
+        return x;
+    }
+
+    // 頂点u, v を統合する
+    static void unite(int u, int v) {
+        int rootOfU = root(u);
+        int rootOfV = root(v);
+
+        if (rootOfU == rootOfV) return;
+
+        // u の方が頂点数が多い場合
+        if (sizeOfTree[rootOfU] > sizeOfTree[rootOfV]) {
+            parent[rootOfV] = rootOfU;
+            sizeOfTree[rootOfU] += sizeOfTree[rootOfV];
+        // v の方が頂点数が多い場合
+        } else {
+            parent[rootOfU] = rootOfV;
+            sizeOfTree[rootOfV] += sizeOfTree[rootOfU];
+        }
+    }
+
 
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
         private int nextInt() {return this.sc.nextInt();}
-        private long nextLong() {return this.sc.nextLong();}
-        private String nextStr() {return this.sc.next();}
-        private int[] nextIntArray(int size) {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextInt();
-            return array;
-        }
-        private int[][] nextIntArray(int size1, int size2) {
-           int[][] array = new int[size1][size2];
-           for (int i = 0; i < size1; i++) array[i] = nextIntArray(size2);
-           return array;
-        }
-        private long[] nextLongArray(int size) {
-            long[] array = new long[size];
-            for (int i = 0; i < size; i++) array[i] = this.sc.nextLong();
-            return array;
-        }
-        private String[] nextStrArray(int size) {
-            List<String> list = new ArrayList<>();
-            for (int i = 0; i < size; i++) list.add(this.sc.next());
-            return list.toArray(new String[size]);
-        }
-        private void output(int result) {System.out.println(result);}
         private <T> void output(T result) {System.out.println(result);}
-        private void outputIntArray(int[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputArray(T[] array, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
-        private <T> void outputList(List<T> list, String delimiter) {
-            StringBuilder result = new StringBuilder();
-            for (T e : list)  result.append(e).append(delimiter);
-            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));
-        }
     }
 }

@@ -1,22 +1,20 @@
 import java.util.*;
 
-public class ThreeDaysAgo {
+public class LeylandNumber {
     public static void main(String[] args) {
 
         IOHandler io = new IOHandler();
-        String s = io.nextStr();
+        int a = io.nextInt();
+        int b = io.nextInt();
         io.close();
 
-        long result = 0;
-
-
-        io.output(result);
+        io.output((int)(Math.pow(a, b)+Math.pow(b, a)));
     }
 
     private static class IOHandler {
         private Scanner sc = new Scanner(System.in);
         private void close() {this.sc.close();}
-        private String nextStr() {return this.sc.next();}
-        private void output(long result) {System.out.println(result);}
+        private int nextInt() {return this.sc.nextInt();}
+        private void output(int result) {System.out.println(result);}
     }
 }

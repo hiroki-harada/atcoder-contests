@@ -7,13 +7,13 @@
 			"public class ${TM_FILENAME_BASE} {",
 			"    public static void main(String[] args) {",
 			"",
-			"        IOHandler io = new IOHandler();",
+			"        InputHandler in = new InputHandler();",
 			"",
-			"        io.close();",
+			"        in.close();",
 			"",
 			"    }",
 			"",
-			"    private static class IOHandler {",
+			"    private static class InputHandler {",
 			"        private Scanner sc = new Scanner(System.in);",
 			"        private void close() {this.sc.close();}",
 			"        private int nextInt() {return this.sc.nextInt();}",
@@ -38,26 +38,6 @@
 			"            List<String> list = new ArrayList<>();",
 			"            for (int i = 0; i < size; i++) list.add(this.sc.next());",
 			"            return list.toArray(new String[size]);",
-			"        }",
-			"        private void output(int result) {System.out.println(result);}",
-			"        private <T> void output(T result) {System.out.println(result);}",
-			"        private void outputIntArray(int[] array, String delimiter) {",
-			"            outputIntArray(array, 0, array.length, delimiter);",
-			"        }",
-			"        private void outputIntArray(int[] array, int start, int end, String delimiter) {",
-			"            StringBuilder result = new StringBuilder();",
-			"            for (int i = start; i < end; i++)  result.append(array[i]).append(delimiter);",
-			"            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));",
-			"        }",
-			"        private <T> void outputArray(T[] array, String delimiter) {",
-			"            StringBuilder result = new StringBuilder();",
-			"            for (int i = 0; i < array.length; i++)  result.append(array[i]).append(delimiter);",
-			"            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));",
-			"        }",
-			"        private <T> void outputList(List<T> list, String delimiter) {",
-			"            StringBuilder result = new StringBuilder();",
-			"            for (T e : list)  result.append(e).append(delimiter);",
-			"            System.out.println(result.toString().substring(0, result.length()-delimiter.length()));",
 			"        }",
 			"    }",
 			"}"
@@ -127,12 +107,46 @@
 		],
 		"description": "util class for Some Mathematics on java"
 	},
-
 	"number of data sets": {
 		"prefix": "nm java",
 		"body": [
 			"int n = io.nextInt();",
 			"int m = io.nextInt();"
+		],
+		"description": ""
+	},
+	"for-roop n times": {
+		"prefix": "forn",
+		"body": [
+			"for (int i = 0; i < n; i++) {",
+			"    ",
+			"}"
+		],
+		"description": ""
+	},
+	"declare and read n times array a/b": {
+		"prefix": "ab of array",
+		"body": [
+			"int[] a = new int[n];",
+			"int[] b = new int[n];",
+			"for (int i = 0; i < n; i++) {",
+			"    a[i] = io.nextInt();",
+			"    b[i] = io.nextInt();",
+			"}"
+		],
+		"description": ""
+	},
+	"declare simple graph": {
+		"prefix": "graph",
+		"body": [
+			"var graph = new ArrayList<List<Integer>>();",
+			"for (int i = 0; i < n; i++) graph.add(new ArrayList<>());",
+			"for (int i = 0; i < n; i++) {",
+			"    int a = io.nextInt()-1;",
+			"    int b = io.nextInt()-1;",
+			"    graph.get(a).add(b);",
+			"    graph.get(b).add(a);",
+			"}"
 		],
 		"description": ""
 	}
