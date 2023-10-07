@@ -81,3 +81,24 @@ private static int expandAroundCenter(String s, int left, int right) {
     return right - left - 1;
 }
 ```
+
+## Input(高速版)
+```java
+import java.io.*;
+public static void main(String[] args) throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    StringTokenizer st = null;
+
+    // N M
+    st = new StringTokenizer(br.readLine());
+    int n = Integer.parseInt(st.nextToken());
+    int m = Integer.parseInt(st.nextToken());
+
+    // A1, A2, ..., Am
+    st = new StringTokenizer(br.readLine());
+    int[] a = new int[m];
+    for (int i = 0; i < m; i++) {
+        a[i] = Integer.parseInt(st.nextToken());
+    }
+}
+```
