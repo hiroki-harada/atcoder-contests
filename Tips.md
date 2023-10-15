@@ -105,6 +105,20 @@ public static void main(String[] args) throws IOException {
 
 
 # テキスト処理
+## 0埋め
+```java
+/*
+ * 指定したsizeまで、0を左詰めする
+*/
+private static String zeroPadding(String base, int size) {
+    if (base.length() >= size) return base;
+
+    StringBuilder sb = new StringBuilder();
+    for (int i = base.length(); i < size; i++) sb.append("0");
+    return sb.append(base).toString();
+}
+```
+
 ## 順列
 ```java
 // 計算量: O(N!)
