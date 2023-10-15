@@ -102,3 +102,41 @@ public static void main(String[] args) throws IOException {
     }
 }
 ```
+
+
+# テキスト処理
+## 順列
+```java
+// 計算量: O(N!)
+private static boolean nextPermutation(String[] array) {
+    // 配列を右から走査して、文字入替の最左点を探す
+    int left = array.length - 2;
+    while (left >= 0 && array[left].compareTo(array[left+1]) >= 0)  left--;
+    // 最後の組み合わせだった場合
+    if (left < 0) return false;
+
+    // 配列を右から走査して、文字入替の最右点を探す
+    int right = array.length - 1;
+    while (array[right].compareTo(array[left]) <= 0) right--;
+
+    // 両端の文字を入れ替える
+    swap(array, left, right);
+    // 最左点より右の文字列を逆順にする  ex) acbd -> dbca
+    reverse(array, left+1, array.length-1);
+    return true;
+}
+
+private static void swap(String[] array, int i, int j) {
+    String temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+}
+
+private static void reverse(String[] array, int i, int j) {
+    while (i < j) {
+        swap(array, i, j);
+        i++;
+        j--;
+    }
+}
+```
