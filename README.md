@@ -530,6 +530,22 @@
 | B: Prefix and Suffix                          | G-   | 単純ループ      | 2023/09/30 | ---------- |
 | C: Festival                                   | G-   | 単純ループ/工夫 | 2023/09/30 | ---------- |
 
+
+| [No. 323](https://atcoder.jp/contests/abc323) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Weak Beats                                 | G-   | 単純ループ | 2023/10/07 | ---------- |
+| B: Round-Robin Tournament                     | G-   | 単純ループ | 2023/10/07 | ---------- |
+| C: World Tour Finals                          | G+   | 単純ループ | 2023/10/07 | ---------- |
+
+
+| [No. 324](https://atcoder.jp/contests/abc324) | rank | type             | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------------- | ---------- | ---------- |
+| A: Same                                       | G-   | ?                | 2023/10/14 | ---------- |
+| B: 3-smooth Numbers                           | G-   | 数学             | 2023/10/14 | ---------- |
+| C: Error Correction                           | F    | テキスト類似判定 | 2023/10/14 | ---------- |
+| D: Square Permutation                         | E-   | 整数判定         | 2023/10/15 |            |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
