@@ -31,9 +31,8 @@ public class SquarePermutation {
         if (base.length() >= size) return base;
 
         StringBuilder sb = new StringBuilder();
-        sb.append(base);
-        for (int i = base.length(); i < size; i++) sb.insert(0, "0");
-        return sb.toString();
+        for (int i = base.length(); i < size; i++) sb.append("0");
+        return sb.append(base).toString();
     }
 
     private static class InputHandler {
