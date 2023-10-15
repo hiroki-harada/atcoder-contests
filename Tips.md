@@ -8,7 +8,7 @@ int k = (n+d-1)/d;
 
 
 
-# Java
+# Javaの記法
 ## 適当な参照クラスをvalue に取るMap、にvalueを設定する
 ```java
 Map<T, List<U>> map = new HashMap<>();
