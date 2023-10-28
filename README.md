@@ -546,6 +546,13 @@
 | D: Square Permutation                         | E-   | 整数判定         | 2023/10/15 |            |
 
 
+| [No. 325](https://atcoder.jp/contests/abc325) | rank | type         | tried at   | ---------- |
+| --------------------------------------------- | ---- | ------------ | ---------- | ---------- |
+| A: Takahashi san                              | G-   | テキスト処理 | 2023/10/21 | ---------- |
+| B: World Meeting                              | G    | 範囲内最大値 | 2023/10/21 |            |
+| C: Sensors                                    | F-    | 表走査       | 2023/10/21 | ---------- |
+
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
