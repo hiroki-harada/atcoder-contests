@@ -8,7 +8,7 @@ int k = (n+d-1)/d;
 
 
 
-# Java
+# Javaの記法
 ## 適当な参照クラスをvalue に取るMap、にvalueを設定する
 ```java
 Map<T, List<U>> map = new HashMap<>();
@@ -79,5 +79,78 @@ private static int expandAroundCenter(String s, int left, int right) {
         right++;
     }
     return right - left - 1;
+}
+```
+
+## Input(高速版)
+```java
+import java.io.*;
+public static void main(String[] args) throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    StringTokenizer st = null;
+
+    // N M
+    st = new StringTokenizer(br.readLine());
+    int n = Integer.parseInt(st.nextToken());
+    int m = Integer.parseInt(st.nextToken());
+
+    // A1, A2, ..., Am
+    st = new StringTokenizer(br.readLine());
+    int[] a = new int[m];
+    for (int i = 0; i < m; i++) {
+        a[i] = Integer.parseInt(st.nextToken());
+    }
+}
+```
+
+
+# テキスト処理
+## 0埋め
+```java
+/*
+ * 指定したsizeまで、0を左詰めする
+*/
+private static String zeroPadding(String base, int size) {
+    if (base.length() >= size) return base;
+
+    StringBuilder sb = new StringBuilder();
+    for (int i = base.length(); i < size; i++) sb.append("0");
+    return sb.append(base).toString();
+}
+```
+
+## 順列
+```java
+// 計算量: O(N!)
+private static boolean nextPermutation(String[] array) {
+    // 配列を右から走査して、文字入替の最左点を探す
+    int left = array.length - 2;
+    while (left >= 0 && array[left].compareTo(array[left+1]) >= 0)  left--;
+    // 最後の組み合わせだった場合
+    if (left < 0) return false;
+
+    // 配列を右から走査して、文字入替の最右点を探す
+    int right = array.length - 1;
+    while (array[right].compareTo(array[left]) <= 0) right--;
+
+    // 両端の文字を入れ替える
+    swap(array, left, right);
+    // 最左点より右の文字列を逆順にする  ex) acbd -> dbca
+    reverse(array, left+1, array.length-1);
+    return true;
+}
+
+private static void swap(String[] array, int i, int j) {
+    String temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+}
+
+private static void reverse(String[] array, int i, int j) {
+    while (i < j) {
+        swap(array, i, j);
+        i++;
+        j--;
+    }
 }
 ```

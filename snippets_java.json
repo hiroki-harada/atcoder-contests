@@ -110,8 +110,8 @@
 	"number of data sets": {
 		"prefix": "nm java",
 		"body": [
-			"int n = io.nextInt();",
-			"int m = io.nextInt();"
+			"int n = in.nextInt();",
+			"int m = in.nextInt();"
 		],
 		"description": ""
 	},
@@ -130,8 +130,8 @@
 			"int[] a = new int[n];",
 			"int[] b = new int[n];",
 			"for (int i = 0; i < n; i++) {",
-			"    a[i] = io.nextInt();",
-			"    b[i] = io.nextInt();",
+			"    a[i] = in.nextInt();",
+			"    b[i] = in.nextInt();",
 			"}"
 		],
 		"description": ""
@@ -142,8 +142,8 @@
 			"var graph = new ArrayList<List<Integer>>();",
 			"for (int i = 0; i < n; i++) graph.add(new ArrayList<>());",
 			"for (int i = 0; i < n; i++) {",
-			"    int a = io.nextInt()-1;",
-			"    int b = io.nextInt()-1;",
+			"    int a = in.nextInt()-1;",
+			"    int b = in.nextInt()-1;",
 			"    graph.get(a).add(b);",
 			"    graph.get(b).add(a);",
 			"}"
