@@ -16,6 +16,19 @@ map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
 ```
 
 
+## 累乗
+```java
+/*
+ * base ^ exp を返す
+ * ※Math.pow() は大きな値を精度良く計算できないため、自作
+ */
+private static long pow(long base, long exp) {
+    long result = 1;
+    for (int i = 0; i < exp; i++) result *= base;
+    return result;
+}
+```
+
 ## n進数
 ```java
 // reference(Integer に限定)
