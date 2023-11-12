@@ -15,17 +15,18 @@ public class Consecutive {
         }
         in.close();
 
-        // dp[i] := 1文字目から1文字目までの間に、 同じ英小文字が 2 つ隣りあう数
-        int[] dp = new int[n];
-        dp[0] = 0;
+        // 事前に累積和を求める
+        // cumulativeSum[i] := 1文字目からi文字目までの間に、 同じ英小文字が 2 つ隣りあう数
+        int[] cumulativeSum = new int[n];
+        cumulativeSum[0] = 0;
         for (int i = 1; i < n; i++) {
-            dp[i] = dp[i-1];
-            if (s.charAt(i-1) == s.charAt(i)) dp[i]++;
+            cumulativeSum[i] = cumulativeSum[i-1];
+            if (s.charAt(i-1) == s.charAt(i)) cumulativeSum[i]++;
         }
 
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < q; i++) {
-            result.add(dp[r[i]] - dp[l[i]]);
+            result.add(cumulativeSum[r[i]] - cumulativeSum[l[i]]);
         }
 
         result.stream().forEach(System.out::println);
