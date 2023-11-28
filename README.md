@@ -560,6 +560,12 @@
 | C: Peak                                       | G+   | 条件内最大値 | 2023/10/28 | ---------- |
 
 
+| [No. 330](https://atcoder.jp/contests/abc330) | rank | type | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---- | ---------- | ---------- |
+| A: Counting Passes                            | G-   | 計算 | 2023/11/25 | ---------- |
+| B: Minimize Abs 1                             | G    | 数学 | 2023/11/29 |            |
+| C: Minimize Abs 2                             | F-   | 数学 | 2023/11/29 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
