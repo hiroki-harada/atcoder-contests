@@ -562,9 +562,21 @@
 
 | [No. 330](https://atcoder.jp/contests/abc330) | rank | type | tried at   | ---------- |
 | --------------------------------------------- | ---- | ---- | ---------- | ---------- |
-| A: Counting Passes                            | G-   | 計算 | 2023/11/25 | ---------- |
-| B: Minimize Abs 1                             | G    | 数学 | 2023/11/29 |            |
-| C: Minimize Abs 2                             | F-   | 数学 | 2023/11/29 |            |
+
+
+| [No. 330](https://atcoder.jp/contests/abc330) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Counting Passes                            | G-   | 計算            | 2023/11/25 | ---------- |
+| B: Minimize Abs 1                             | G    | 数学            | 2023/11/29 |            |
+| C: Minimize Abs 2                             | F-   | 数学            | 2023/11/29 |            |
+| D: Counting Ls                                | F    | 単純ループ/工夫 | 2023/05/dd |            |
+
+
+| [No. 331](https://atcoder.jp/contests/abc331) | rank | type        | tried at   | ---------- |
+| --------------------------------------------- | ---- | ----------- | ---------- | ---------- |
+| A: Tomorrow                                   | G-   | 計算        | 2023/12/02 | ---------- |
+| B: Buy One Carton of Milk                     | G    | 全探索      | 2023/12/04 |            |
+| C: Sum of Numbers Greater Than Me             | G+   | 累積和/工夫 | 2023/12/02 | ---------- |
 
 -----
 
