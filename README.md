@@ -565,6 +565,7 @@
 | A: ab                                         | G-   | テキスト判定 | 2023/11/04 | ---------- |
 | B: A^A                                        | G-   | 数学         | 2023/11/04 | ---------- |
 | C: Number Place                               | G    | 平面マス     | 2023/11/04 | ---------- |
+| D: Good Tuple Problem                         | F+   | DFS          | 2023/12/10 |            |
 
 
 | [No. 328](https://atcoder.jp/contests/abc328) | rank | type            | tried at   | ---------- |
