@@ -139,7 +139,7 @@
 	"declare simple graph": {
 		"prefix": "graph",
 		"body": [
-			"var graph = new ArrayList<List<Integer>>();",
+			"var graph = new ArrayList<>();",
 			"for (int i = 0; i < n; i++) graph.add(new ArrayList<>());",
 			"for (int i = 0; i < n; i++) {",
 			"    int a = in.nextInt()-1;",
