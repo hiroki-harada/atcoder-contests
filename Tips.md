@@ -1,3 +1,36 @@
+# 競プロの心得
+
+## 困ったときの発想転換
+* 最終手から考える
+* 文字列の削除 -> 文字列の作成　に置き換える
+
+## 組み合わせ最適化
+下に行くほど、パフォーマンスが良く、実装難易度が高い？
+
+* 全探索(要素の数分ループ)
+  * (各要素*要素の桁数) * 桁数 <= 10^9 くらいならオススメ
+
+* 全探索(bitなど)
+
+
+* 2分探索
+
+## 入力値の読み取り
+* 下記のケースを混同していないか
+```bash
+// 数列が与えられる
+A1 A2 ... An-1 An
+B1 B2 ... Bn-1 Bn
+
+// ペアが与えられる
+A1 B1
+A2 B2
+...
+An-1 Bn-1
+An Bn
+```
+
+
 # 数学
 
 ## ⌈x⌉ (x以上の最小の整数)
@@ -15,6 +48,19 @@ Map<T, List<U>> map = new HashMap<>();
 map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
 ```
 
+
+## 累乗
+```java
+/*
+ * base ^ exp を返す
+ * ※Math.pow() は大きな値を精度良く計算できないため、自作
+ */
+private static long pow(long base, long exp) {
+    long result = 1;
+    for (int i = 0; i < exp; i++) result *= base;
+    return result;
+}
+```
 
 ## n進数
 ```java
