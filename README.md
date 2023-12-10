@@ -573,6 +573,7 @@
 | A: Not Too Hard                               | G-   | 計算            | 2023/11/11 | ---------- |
 | B: 11/11                                      | G-   | 単純ループ/工夫 | 2023/11/11 | ---------- |
 | C: Consecutive                                | G+   | 累積和          | 2023/11/11 | ---------- |
+| D: Take ABC                                   | F    | 文字列操作      | 2023/12/10 |            |
 
 
 | [No. 329](https://atcoder.jp/contests/abc329) | rank | type              | tried at   | ---------- |
