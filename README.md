@@ -605,6 +605,12 @@
 | B: Glass and Mug                              | G-   | 単純ループ | 2023/12/10 | ---------- |
 | C: T-shirts                                   | G    | 単純ループ | 2023/12/10 | ---------- |
 
+
+| [No. 333](https://atcoder.jp/contests/abc333) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Three Threes                               |      | 単純ループ | 2023/12/16 | ---------- |
+| B: Pentagon                                   |      | 全探索     | 2023/12/16 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
