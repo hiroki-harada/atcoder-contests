@@ -598,6 +598,13 @@
 | B: Buy One Carton of Milk                     | G    | 全探索      | 2023/12/04 |            |
 | C: Sum of Numbers Greater Than Me             | G+   | 累積和/工夫 | 2023/12/02 | ---------- |
 
+
+| [No. 332](https://atcoder.jp/contests/abc332) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Online Shopping                            | G-   | 単純ループ | 2023/12/10 | ---------- |
+| B: Glass and Mug                              | G-   | 単純ループ | 2023/12/10 | ---------- |
+| C: T-shirts                                   | G    | 単純ループ | 2023/12/10 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
