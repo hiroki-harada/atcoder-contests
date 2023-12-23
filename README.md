@@ -611,6 +611,12 @@
 | A: Three Threes                               |      | 単純ループ | 2023/12/16 | ---------- |
 | B: Pentagon                                   |      | 全探索     | 2023/12/16 | ---------- |
 
+
+| [No. 334](https://atcoder.jp/contests/abc334) | rank | type   | tried at   | ---------- |
+| --------------------------------------------- | ---- | ------ | ---------- | ---------- |
+| A: Christmas Present                          |      | 計算   | 2023/12/23 | ---------- |
+| D: Reindeer and Sleigh                        |      | 累積和 | 2023/12/23 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
