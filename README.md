@@ -616,8 +616,9 @@
 
 | [No. 334](https://atcoder.jp/contests/abc334) | rank | type   | tried at   | ---------- |
 | --------------------------------------------- | ---- | ------ | ---------- | ---------- |
-| A: Christmas Present                          |      | 計算   | 2023/12/23 | ---------- |
-| D: Reindeer and Sleigh                        |      | 累積和 | 2023/12/23 | ---------- |
+| A: Christmas Present                          | G-   | 計算   | 2023/12/23 | ---------- |
+| B: Christmas Trees                            | F-   | 計算   | 2023/12/30 |            |
+| D: Reindeer and Sleigh                        | F    | 累積和 | 2023/12/23 | ---------- |
 
 -----
 
