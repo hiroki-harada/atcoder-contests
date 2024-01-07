@@ -200,3 +200,65 @@ private static void reverse(String[] array, int i, int j) {
     }
 }
 ```
+
+
+
+# アルゴリズム
+## Union Find
+```java
+class UnionFind {
+    private int[] parent;
+    private int[] size;
+
+    UnionFind(int n) {
+        parent = new int[n];
+        Arrays.fill(parent, -1);
+        size = new int[n];
+        Arrays.fill(size, 1);
+    }
+
+    /*
+    * 点 u, v を結合して同じ木にまとめる
+    */
+    public void unite(int u, int v) {
+        int rootU = root(u);
+        int rootV = root(v);
+
+        if (rootU == rootV) return;
+
+        // ノード数の小さいグループの親を、ノード数の大きいグループの根に結合
+        // ノード数を更新
+        if (size[u] > size[v]) {
+            parent[rootV] = rootU;
+            size[rootU] += size[rootV];
+        } else {
+            parent[rootU] = rootV;
+            size[rootV] += size[rootU];
+        }
+    }
+
+    /*
+     * x の根の大きさを返す
+     */
+    public int calcSizeOfRoot(int x) {
+        return size[root(x)];
+    }
+
+    /*
+    * 点 u, v が同じ木に属するか判定
+    */
+    private boolean same(int u, int v) {
+        if (root(u) == root(v)) return true;
+        return false;
+    }
+
+    /*
+    * 点 u の根を返す
+    * 再帰呼び出しの方が while (true) より速かった、理由は不明
+    */
+    private int root(int x) {
+        if (parent[x] == -1) return x;
+        return parent[x] = root(parent[x]);
+    }
+}
+```

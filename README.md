@@ -598,6 +598,28 @@
 | B: Buy One Carton of Milk                     | G    | 全探索      | 2023/12/04 |            |
 | C: Sum of Numbers Greater Than Me             | G+   | 累積和/工夫 | 2023/12/02 | ---------- |
 
+
+| [No. 332](https://atcoder.jp/contests/abc332) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Online Shopping                            | G-   | 単純ループ | 2023/12/10 | ---------- |
+| B: Glass and Mug                              | G-   | 単純ループ | 2023/12/10 | ---------- |
+| C: T-shirts                                   | G    | 単純ループ | 2023/12/10 | ---------- |
+
+
+| [No. 333](https://atcoder.jp/contests/abc333) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Three Threes                               | G-   | 単純ループ      | 2023/12/16 | ---------- |
+| B: Pentagon                                   | G-   | 全探索          | 2023/12/16 | ---------- |
+| C: Repunit Trio                               | G+   | 単純ループ/工夫 | 2023/12/23 |            |
+| D: Erase Leaves                               | F+   | Union Find/DFS  | 2023/12/24 |            |
+
+
+| [No. 334](https://atcoder.jp/contests/abc334) | rank | type   | tried at   | ---------- |
+| --------------------------------------------- | ---- | ------ | ---------- | ---------- |
+| A: Christmas Present                          | G-   | 計算   | 2023/12/23 | ---------- |
+| B: Christmas Trees                            | F-   | 計算   | 2023/12/30 |            |
+| D: Reindeer and Sleigh                        | F    | 累積和 | 2023/12/23 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
