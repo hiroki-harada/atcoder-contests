@@ -620,6 +620,12 @@
 | B: Christmas Trees                            | F-   | 計算   | 2023/12/30 |            |
 | D: Reindeer and Sleigh                        | F    | 累積和 | 2023/12/23 | ---------- |
 
+
+| [No. 336](https://atcoder.jp/contests/abc336) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Long Loong                                 |      | 文字列操作 | 2024/01/14 | ---------- |
+| B: CTZ                                        |      | 計算       | 2024/01/14 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
