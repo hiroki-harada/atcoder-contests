@@ -633,6 +633,13 @@
 | D: Cheating Gomoku Narabe                     | F+   | 単純ループ/工夫 | 2024/01/22 |            |
 | E: Bad Juice                                  | E+   | 2進法/工夫      | 2024/01/21 |            |
 
+
+| [No. 338](https://atcoder.jp/contests/abc338) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Capitalized?                               | G-   | 文字列操作 | 2024/01/27 | ---------- |
+| B: Frequency                                  | G-   | 単純ループ | 2024/01/27 | ---------- |
+| C: Leftover Recipes                           | F-   | 単純ループ | 2024/01/27 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
