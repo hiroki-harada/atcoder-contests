@@ -84,9 +84,9 @@ int i_n = Integer.parseInt(str, n);
  * n進数変換
  */
 // 10進数i_10 -> 2,8,16進数
-int i_2 = Integer.toBinaryString(i_10);
-int i_8 = Integer.toOctalString(i_10);
-int i_16 = Integer.toHexString(i_10);
+String i_2 = Integer.toBinaryString(i_10);
+String i_8 = Integer.toOctalString(i_10);
+String i_16 = Integer.toHexString(i_10);
 
 // 10進数i_m -> n進数i_n
 int i_n = Integer.parseInt(Integer.toString(i_m, n));
