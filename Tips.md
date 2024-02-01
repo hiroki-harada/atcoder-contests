@@ -70,14 +70,8 @@ private static long pow(long base, long exp) {
 /**
  * n進数表記
  */
-// 文字列str を、n進数i_n として定義
-int i_n = Integer.parseInt(str, n);
-
-// parseInt("0", 10) returns 0
-// parseInt("+42", 10) returns 42
-// parseInt("99", 8) throws a NumberFormatException
-// parseInt("Kona", 10) throws a NumberFormatException
-// parseInt("Kona", 27) returns 411787
+// n を、m 進数に変換
+String strN = Integer.toString(n, m);
 
 
 /**
@@ -90,6 +84,9 @@ String i_16 = Integer.toHexString(i_10);
 
 // 10進数i_m -> n進数i_n
 int i_n = Integer.parseInt(Integer.toString(i_m, n));
+
+// n 進数 -> m 進数
+String s = Integer.toString(Integer.parseInt(str, n), m);
 ```
 
 
