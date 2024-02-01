@@ -623,6 +623,8 @@
 
 | [No. 336](https://atcoder.jp/contests/abc336) | rank | type       | tried at   | ---------- |
 | --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Long Loong                                 | G-   | 文字列操作 | 2024/01/14 | ---------- |
+| B: CTZ                                        | G-   | 計算       | 2024/01/14 | ---------- |
 
 
 | [No. 337](https://atcoder.jp/contests/abc337) | rank | type            | tried at   | ---------- |
