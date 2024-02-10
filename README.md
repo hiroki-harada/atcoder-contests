@@ -643,6 +643,13 @@
 | B: Frequency                                  | G-   | 単純ループ | 2024/01/27 | ---------- |
 | C: Leftover Recipes                           | F-   | 単純ループ | 2024/01/27 | ---------- |
 
+
+| [No. 339](https://atcoder.jp/contests/abc339) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: TLD                                        | G-   | 文字列操作 | 2024/02/03 | ---------- |
+| B: Langton's Takahashi                        | G    | 単純ループ | 2024/02/03 | ---------- |
+| C: Perfect Bus                                | G    | 単純ループ | 2024/02/03 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
@@ -700,3 +707,8 @@
 | B63: Breadth First Search                               | BFS            | 2023/02/05 |     |
 | B64: Shortest Path with Restoration                     | BFS            | 2023/02/05 |     |
 | B65: Road to Promotion Hard                             | DFS            | 2023/04/25 |     |
+
+
+| [Educational DP Contest](https://atcoder.jp/contests/dp) | type | tried at   |     |
+| -------------------------------------------------------- | ---- | ---------- | --- |
+| P: Independent Set                                       | DP   | ---------- |     |
