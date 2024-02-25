@@ -650,6 +650,20 @@
 | B: Langton's Takahashi                        | G    | 単純ループ | 2024/02/03 | ---------- |
 | C: Perfect Bus                                | G    | 単純ループ | 2024/02/03 |            |
 
+
+| [No. 340](https://atcoder.jp/contests/abc340) | rank | type           | tried at   | ---------- |
+| --------------------------------------------- | ---- | -------------- | ---------- | ---------- |
+| A: Arithmetic Progression                     | G-   | 単純ループ     | 2024/02/10 | ---------- |
+| B: Append                                     | G-   | 単純ループ     | 2024/02/10 | ---------- |
+
+
+| [No. 342](https://atcoder.jp/contests/abc342) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Yay!                                       | G-   | 単純ループ      | 2024/02/24 | ---------- |
+| B: Which is ahead?                            | G-   | 単純ループ      | 2024/02/24 | ---------- |
+| C: Many Replacement                           | F-   | 文字列操作/工夫 | 2024/02/24 |            |
+| D: Square Pair                                | E    |                 | 2024/02/24 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
