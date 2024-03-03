@@ -664,6 +664,14 @@
 | C: Many Replacement                           | F-   | 文字列操作/工夫 | 2024/02/24 |            |
 | D: Square Pair                                | E    |                 | 2024/02/24 |            |
 
+
+| [No. 343](https://atcoder.jp/contests/abc343) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Wrong Answer                               | G-   | 計算       | 2024/03/02 | ---------- |
+| B: Adjacency Matrix                           | G-   | 単純ループ | 2024/03/02 | ---------- |
+| C: 343                                        | G    | 単純ループ | 2024/03/02 | ---------- |
+| D: Diversity of Scores                        | F-   | 単純ループ | 2024/03/02 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
