@@ -199,6 +199,18 @@ private static void reverse(String[] array, int i, int j) {
 ```
 
 
+## 回文
+```java
+/*
+ * 文字列に変換して、文字列が回文かどうかをチェックする
+ */
+private static boolean isPalindrome(long num) {
+    String str = Long.toString(num);
+    StringBuilder reversed = new StringBuilder(str).reverse();
+    return str.equals(reversed.toString());
+}
+```
+
 
 # アルゴリズム
 ## Union Find
