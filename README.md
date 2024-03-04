@@ -651,6 +651,10 @@
 | C: Perfect Bus                                | G    | 単純ループ | 2024/02/03 |            |
 
 
+| [No. 340](https://atcoder.jp/contests/abc340) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Arithmetic Progression                     | G-   | 単純ループ | 2024/02/10 | ---------- |
+| B: Append                                     | G-   | 単純ループ | 2024/02/10 | ---------- |
 
 
 | [No. 341](https://atcoder.jp/contests/abc341) | rank | type       | tried at   | ---------- |
