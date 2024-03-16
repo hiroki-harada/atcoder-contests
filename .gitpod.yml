@@ -4,8 +4,7 @@ image:
 tasks:
   - name: install java, kotlin
     command: |
-      sdk install java 17.0.8.fx-zulu
-      sdk use java 17.0.8.fx-zulu --default
+      echo "y" | sdk install java 17.0.8.fx-zulu # instead of "-y"
       sdk install kotlin 1.8.20
       sdk use kotlin 1.8.20 --default
 
