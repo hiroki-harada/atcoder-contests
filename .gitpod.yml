@@ -2,6 +2,18 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-- name: mkd; command of make first direcotory
-  command: |
-    export PATH=$PATH:/workspace/atcoder-java/command
+  - name: install java, kotlin
+    command: |
+      echo "y" | sdk install java 17.0.8.fx-zulu # instead of "-y"
+      sdk install kotlin 1.8.20
+      sdk use kotlin 1.8.20 --default
+
+  - name: mkd; command of make first direcotory
+    command: |
+      export PATH=$PATH:/workspace/atcoder-java/command
+
+vscode:
+  extensions:
+    - fwcd.kotlin
+    - mathiasfrohlich.Kotlin
+    - vscjava.vscode-java-pack
