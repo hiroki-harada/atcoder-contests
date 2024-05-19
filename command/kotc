@@ -1,0 +1,19 @@
+#!/bin/bash
+
+readonly fileWithExt=$1
+readonly file=${fileWithExt%\.kt}
+
+if [ $fileWithExt = "" ]; then
+  echo "Error : Requires an argument" 1>&2
+  exit 1
+fi
+
+echo $fileWithExt | grep -E ".+\.kt$" > /dev/null 2>&1
+if [ $? -eq 1 ]; then
+  echo "Error : ${fileWithExt} is not kotlin file" 1>&2
+  exit 2
+fi
+
+kotlinc $fileWithExt -include-runtime -d ${file}.jar
+
+exit 0

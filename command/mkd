@@ -1,14 +1,17 @@
 #!/bin/bash
 
-if [[ $1 = "" ]]; then
+readonly dir=$1
+
+
+if [[ $dir = "" ]]; then
   echo "Error : Requires an argument" 1>&2
   exit 1
-elif [[ $# -gt 1 ]]; then
-  echo "Error : Too many arguments" 1>&2
+elif [ -e ${dir} ]; then
+  echo `Error : ${dir} is already exist` 1>&2
   exit 2
 fi
 
-mkdir ${1}/
-mkdir ${1}/_1/
+mkdir ${dir}/
+cd ${dir} && mkdir a_1 b_1 c_1
 
 exit 0
