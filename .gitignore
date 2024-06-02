@@ -32,3 +32,9 @@ build
 
 # explicity managed jar
 !gradle-wrapper.jar
+
+# test cases generated from oj
+test/
+
+# env file
+.env

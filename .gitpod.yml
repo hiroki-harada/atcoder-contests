@@ -10,7 +10,11 @@ tasks:
 
   - name: mkd; command of make first direcotory
     command: |
-      export PATH=$PATH:/workspace/atcoder-java/command
+      export PATH=$PATH:/workspace/atcoder-contests/command
+
+  - name: install oj and login
+    command: |
+      pip3 install online-judge-tools
 
 vscode:
   extensions:

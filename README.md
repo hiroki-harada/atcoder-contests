@@ -711,6 +711,18 @@
 | B: Farthest Point                             | G-   | 単純ループ | 2024/04/06 |            |
 | C: Colorful Beans                             | G    | 単純ループ | 2024/04/06 |            |
 
+
+| [No. 352](https://atcoder.jp/contests/abc352) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: AtCoder Line                               | G-   | 文字列操作 | 2024/05/04 | ---------- |
+| B: Typing                                     | G-   | 単純ループ | 2024/05/04 | ---------- |
+| C: Standing On The Shoulders                  | G    | 単純ループ | 2024/05/04 | ---------- |
+
+
+| [No. 353](https://atcoder.jp/contests/abc353) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Buildings                                  | G-   | 単純ループ | 2024/05/19 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
