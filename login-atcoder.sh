@@ -1,4 +1,11 @@
 #!/bin/bash
+if [[ $1 = "-h" ]]; then
+  echo "$(basename $0) is custom command"
+  echo "Usage : \"login-atcoder\"  then check whether is logined or not atcoder, and login if not yet"
+  echo ""
+  exit 0
+fi
+
 
 readonly URL=https://atcoder.jp/
 
