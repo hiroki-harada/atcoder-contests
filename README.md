@@ -737,6 +737,14 @@
 | B: Uppercase and Lowercase                    | G-   | 計算            | 2024/06/08 | ---------- |
 | C: Sierpinski carpet                          | G+   | 単純ループ/MEMO | 2024/06/09 |            |
 
+
+| [No. 358](https://atcoder.jp/contests/abc358) | rank | type                | tried at   | ---------- |
+| --------------------------------------------- | ---- | ------------------- | ---------- | ---------- |
+| A: Welcome to AtCoder Land                    | G-   | 文字列操作          | 2024/06/15 | ---------- |
+| B: Ticket Counter                             | G-   | 単純ループ          | 2024/06/15 | ---------- |
+| C: Popcorn                                    | G+   | 単純ループ/bit mask | 2024/06/15 |            |
+| D: Souvenirs                                  | G+   |                     | 2024/06/15 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
