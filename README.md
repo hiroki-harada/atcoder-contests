@@ -743,7 +743,7 @@
 | A: Welcome to AtCoder Land                    | G-   | 文字列操作          | 2024/06/15 | ---------- |
 | B: Ticket Counter                             | G-   | 単純ループ          | 2024/06/15 | ---------- |
 | C: Popcorn                                    | G+   | 単純ループ/bit mask | 2024/06/15 |            |
-| D: Souvenirs                                  | G+   |                     | 2024/06/15 |            |
+| D: Souvenirs                                  | G+   | 単純ループ/工夫     | 2024/06/22 |            |
 
 -----
 
