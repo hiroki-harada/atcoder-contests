@@ -779,6 +779,7 @@
 | 010: Score Sum Queries                             | ⁎⁎   | 累積和            | 2022/11/12 |            |
 | 014: We Used to Sing a Song Together               | ⁎⁎⁎  | 単純ループ/工夫？ | 2023/09/26 | ---------- |
 | 016: Minimum Coins                                 | ⁎⁎⁎  | 工夫/不変量       | 2023/10/01 |            |
+| 018: Statue of Chokudai                            | ⁎⁎⁎  | 幾何学            | 2024/06/26 |            |
 | 022: Cubic Cake                                    | ⁎⁎   | GCD               | 2022/11/18 |            |
 | 024: Select +／- One                               | ⁎⁎   | 単純ループ        | 2022/11/18 | ---------- |
 | 027: Sign Up Requests                              | ⁎⁎   | 単純ループ        | 2022/11/18 | ---------- |
