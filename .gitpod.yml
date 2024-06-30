@@ -8,13 +8,15 @@ tasks:
       sdk install kotlin 1.8.20
       sdk use kotlin 1.8.20 --default
 
-  - name: mkd; command of make first direcotory
+  - name: add path to custom command directory
     command: |
-      export PATH=$PATH:/workspace/atcoder-contests/command
+      echo "export PATH=\$PATH:/workspace/atcoder-contests/command" >> ~/.bash_profile
+      source ~/.bash_profile
 
   - name: install oj and login
     command: |
       pip3 install online-judge-tools
+      ./login-atcoder.sh
 
 vscode:
   extensions:

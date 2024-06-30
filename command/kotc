@@ -1,4 +1,11 @@
 #!/bin/bash
+if [[ $1 = "-h" ]]; then
+  echo "$(basename $0) is custom command"
+  echo "Usage : \"kotc Main.kt\" then compile Main.kt and create Main.jar in current directory"
+  echo ""
+  exit 0
+fi
+
 
 readonly fileWithExt=$1
 readonly file=${fileWithExt%\.kt}
