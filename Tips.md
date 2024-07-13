@@ -15,6 +15,20 @@
 
 * 2分探索
 
+
+## 桁数
+桁数は、十分余裕のある型を使用すること
+
+アルゴリズム自体が問題なくても、型の範囲が不十分で失敗することは意外と多い
+
+例えば Kotlin、O(a) = 10^9 の場合、原則として`a = LongArray(n)`として扱う
+
+### Kotlin
+![alt text](images/Kotlin_Numbers.png)
+
+[Kotlin - Numbers](https://kotlinlang.org/docs/numbers.html)
+
+
 ## 入力値の読み取り
 * 下記のケースを混同していないか
 ```bash
