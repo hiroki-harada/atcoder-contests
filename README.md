@@ -752,6 +752,14 @@
 | B: Vertical Reading                           | F-   | 単純ループ | 2024/06/30 | ---------- |
 | C: Move It                                    | G+   | 単純ループ | 2024/06/30 | ---------- |
 
+
+| [No. 362](https://atcoder.jp/contests/abc362) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Buy a Pen                                  | G-   | 計算            | 2024/07/13 | ---------- |
+| B: Right Triangle                             | G-   | 数学            | 2024/07/13 | ---------- |
+| C: Sum = 0                                    | F-   | 単純ループ/工夫 | 2024/07/13 |            |
+| D: Shortest Path 3                            | F+   | Dijkstra        | 2024/07/13 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
