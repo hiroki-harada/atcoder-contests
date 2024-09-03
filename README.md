@@ -767,6 +767,13 @@
 | B: Grid Walk                                  | G-   | 単純ループ | 2024/07/27 | ---------- |
 | C: Minimum Glutton                            | G    | 単純ループ | 2024/07/27 | ---------- |
 
+
+| [No. 367](https://atcoder.jp/contests/abc367) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Shout Everyday                             | G-   | 工夫       | 2024/08/17 | ---------- |
+| B: Cut .0                                     | G-   | 文字列操作 | 2024/08/17 | ---------- |
+| C: Enumerate Sequences                        | G    | 再帰       | 2024/08/17 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
