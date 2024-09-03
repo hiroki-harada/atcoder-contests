@@ -285,3 +285,12 @@ class UnionFind {
     }
 }
 ```
+
+
+# 言語別テンプレート
+## Kotlin
+* 多次元配列
+```kotlin
+// 要素数 m*n 、 Long の 2 次元配列
+val dp = Array<LongArray>(m) { LongArray(n) }
+```
