@@ -774,6 +774,13 @@
 | B: Cut .0                                     | G-   | 文字列操作 | 2024/08/17 | ---------- |
 | C: Enumerate Sequences                        | G    | 再帰       | 2024/08/17 | ---------- |
 
+
+| [No. 369](https://atcoder.jp/contests/abc369) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: 369                                        |      | 工夫            | 2024/08/31 | ---------- |
+| B: Piano 3                                    |      | 単純ループ      | 2024/08/31 | ---------- |
+| C: Count Arithmetic Subarrays                 |      | 工夫/単純ループ | 2024/09/08 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
