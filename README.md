@@ -781,6 +781,13 @@
 | B: Piano 3                                    |      | 単純ループ      | 2024/08/31 | ---------- |
 | C: Count Arithmetic Subarrays                 |      | 工夫/単純ループ | 2024/09/08 |            |
 
+
+| [No. 371](https://atcoder.jp/contests/abc371) | rank | type           | tried at   | ---------- |
+| --------------------------------------------- | ---- | -------------- | ---------- | ---------- |
+| A: Jiro                                       | G-   | ?              | 2024/09/14 | ---------- |
+| B: Taro                                       | G-   | 単純ループ     | 2024/09/14 | ---------- |
+| D: 1D Country                                 | F-   | 累積和/2分探索 | 2024/09/17 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
