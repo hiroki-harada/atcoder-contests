@@ -780,7 +780,7 @@
 | A: 369                                        | G-   | 工夫            | 2024/08/31 | ---------- |
 | B: Piano 3                                    | G-   | 単純ループ      | 2024/08/31 | ---------- |
 | C: Count Arithmetic Subarrays                 | G-   | 工夫/単純ループ | 2024/09/08 |            |
-| D: Bonus EXP                                  | F    | DP              | 2024/08/31 |            |
+| D: Bonus EXP                                  | F    | DP              | 2024/09/21 |            |
 
 
 | [No. 371](https://atcoder.jp/contests/abc371) | rank | type           | tried at   | ---------- |
