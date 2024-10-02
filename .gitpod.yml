@@ -15,6 +15,8 @@ tasks:
 
   - name: install oj and login
     command: |
+      # pyenv install 3.12.3
+      # pip install setuptools
       pip3 install online-judge-tools
       ./login-atcoder.sh
 
