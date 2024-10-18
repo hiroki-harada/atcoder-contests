@@ -797,6 +797,13 @@
 | C: Max Ai+Bj                                  | G-   | 計算       | 2024/09/28 | ---------- |
 | D:                                            | F+   | DFS        | 2024/09/29 |            |
 
+
+| [No. 375](https://atcoder.jp/contests/abc375) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Seats                                      | G-   | 単純ループ | 2024/10/12 | ---------- |
+| B: Traveling Takahashi Problem                | G-   | 単純ループ | 2024/10/12 | ---------- |
+| D: ABA                                        | F    | 工夫       | 2024/10/16 | 2024/10/18 |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
