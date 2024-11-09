@@ -804,6 +804,12 @@
 | B: Traveling Takahashi Problem                | G-   | 単純ループ | 2024/10/12 | ---------- |
 | D: ABA                                        | F    | 工夫       | 2024/10/16 | 2024/10/18 |
 
+
+| [No. 379](https://atcoder.jp/contests/abc379) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Cyclic                                     | G-   | 文字列操作 | 2024/11/09 | ---------- |
+| B: Strawberries                               | G-   | 単純ループ | 2024/11/09 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
