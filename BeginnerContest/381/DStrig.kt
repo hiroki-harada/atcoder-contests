@@ -13,8 +13,8 @@ fun main() {
         for (leftEdge in init until n step 2) {
             while (rightEdge + 1 < n) {
                 // 同値判定
-                if (a[rightEdge] == a[rightEdge + 1]) break
-                // 既出判定
+                if (a[rightEdge] != a[rightEdge + 1]) break
+                // 未登場判定
                 if (isAppeared[a[rightEdge] - 1]) break
 
                 isAppeared[a[rightEdge] - 1] = true
@@ -25,10 +25,11 @@ fun main() {
             result = max(result, rightEdge - leftEdge)
 
             if (leftEdge == rightEdge) {
+                // 右端を一度も動かせなかった場合の考慮
                 rightEdge += 2
             } else {
-                // 左端の数字を削ってノーカンにする
-                isAppeared[a[rightEdge] - 1] = false
+                // チェック範囲の左端を削る
+                isAppeared[a[leftEdge] - 1] = false
             }
         }
     }
