@@ -820,6 +820,13 @@
 | C: 11/22 Substring                            | G+   | 単純ループ      | 2024/11/22 | ---------- |
 | D: 1122 Substring                             | E-   | 単純ループ/工夫 | 2024/11/26 | 2024/12/01 |
 
+
+| [No. 384](https://atcoder.jp/contests/abc384) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: aaaadaa                                    | G-   | 正規表現   | 2024/12/14 | ---------- |
+| B: ARC Division                               | G-   | 単純ループ | 2024/12/14 | ---------- |
+| C: Perfect Standings                          | G    | bit 全探索 | 2024/12/14 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
