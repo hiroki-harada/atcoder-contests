@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# ヘルプオプション
 if [[ $1 = "-h" ]]; then
   echo "$(basename $0) is custom command"
   echo "Usage : \"mkd 314\"  then create below folders"
@@ -13,6 +15,7 @@ fi
 
 readonly dir=$1
 
+# 引数チェック
 if [[ $dir = "" ]]; then
   echo "Error : Requires an argument" 1>&2
   exit 1
@@ -21,6 +24,7 @@ elif [ -e ${dir} ]; then
   exit 2
 fi
 
+# 問題毎のディレクトリ作成
 mkdir ${dir}/
 cd ${dir} && mkdir a_1 b_1 c_1
 
