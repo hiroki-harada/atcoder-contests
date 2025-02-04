@@ -1,0 +1,22 @@
+#!/bin/bash
+###########
+# ojd is for download datasets in atcoder
+# 
+# ex)
+# $ pwd
+# /workspace/atcoder-contests/BeginnerContest/389/d_1
+# $ ojd
+# # omitted ..
+# $ ls -R
+# .:
+# test
+#
+# ./test:
+# sample-1.in  sample-1.out  sample-2.in  sample-2.out  sample-3.in  sample-3.out
+###########
+readonly mainDir=$(pwd | cut -d "/" -f 5)
+readonly subDir=$(basename $PWD | cut -d "_" -f 1)
+
+oj d https://atcoder.jp/contests/abc${mainDir}/tasks/abc${mainDir}_${subDir}
+
+exit 0
