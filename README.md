@@ -842,6 +842,13 @@
 | C: Debug                                      | G    | 単純ループ | 2025/02/22 | ---------- |
 | D: Colorful Bracket Sequence                  | G+   | 単純ループ | 2025/02/22 | ---------- |
 
+
+| [No. 397](https://atcoder.jp/contests/abc397) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Thermometer                                | G-   | 文字列操作 | 2025/03/15 | ---------- |
+| B: Ticket Gate Log                            | G    | 単純ループ | 2025/03/15 | ---------- |
+| C: Variety Split Easy                         | F-   | 単純ループ | 2025/03/15 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
