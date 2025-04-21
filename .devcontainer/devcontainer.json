@@ -1,0 +1,7 @@
+{
+    "name": "atcoder-contests",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "onCreateCommand": "./setup.sh"
+}
