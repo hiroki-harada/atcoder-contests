@@ -18,4 +18,4 @@ cd gradle && ./gradlew clean build wrap && cd ..
 #############
 # Post execute
 #############
-# ./login-atcoder.sh
+./login-atcoder.sh
