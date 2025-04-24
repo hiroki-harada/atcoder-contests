@@ -16,6 +16,13 @@ echo "PS1='\${debian_chroot:+(\$debian_chroot)}\[\033[01;32m\]\u \[\033[01;34m\]
 cd gradle && ./gradlew clean build wrap && cd ..
 
 #############
+# Online Judge Tools
+#############
+pip install --upgrade pip
+pip install setuptools
+pip3 install online-judge-tools
+
+#############
 # Post execute
 #############
 ./login-atcoder.sh

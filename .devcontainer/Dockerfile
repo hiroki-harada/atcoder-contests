@@ -18,7 +18,9 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     sudo git curl dirmngr bsdmainutils ca-certificates \
     unzip zip \
     # oj needed
-    locales build-essential zlib1g-dev \
+    locales build-essential zlib1g-dev libssl-dev libbz2-dev \
+    libncurses-dev libffi-dev libreadline-dev liblzma-dev \
+    sqlite3 libsqlite3-dev \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 RUN locale-gen en_US.UTF-8
 USER $USER_NAME
@@ -43,15 +45,15 @@ RUN echo 'source "$HOME/.sdkman/bin/sdkman-init.sh"' >> ~/.bashrc
 #############
 ARG PYTHON_VERSION=3.12.3
 RUN curl -fsSL https://pyenv.run | bash && \
-    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile && \
-    echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile && \
-    echo 'eval "$(pyenv init - bash)"' >> ~/.bash_profile && \
-    exec $SHELL && \
-    . ~/.bash_profile && \
+    export PYENV_ROOT="$HOME/.pyenv" && \
+    export PATH="$PYENV_ROOT/bin:$PATH" && \
+    eval "$(pyenv init - bash)" && \
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc && \
+    echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc && \
+    echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc && \
     pyenv install $PYTHON_VERSION && \
     echo "export PATH=\$PATH:$HOME/.pyenv/versions/$PYTHON_VERSION/bin" >> ~/.bashrc && \
-    pip install setuptools && \
-    pip3 install online-judge-tools
+    pyenv global $PYTHON_VERSION
 
 #############
 # Others
