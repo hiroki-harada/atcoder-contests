@@ -3,5 +3,8 @@
     "build": {
         "dockerfile": "./Dockerfile"
     },
-    "onCreateCommand": "./setup.sh"
+    "onCreateCommand": [
+        "./setup.sh",
+        " && ./login-atcoder.sh"
+    ]
 }
