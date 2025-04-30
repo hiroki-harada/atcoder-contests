@@ -2,9 +2,7 @@
     "name": "atcoder-contests",
     "build": {
         "dockerfile": "./Dockerfile"
-    },
-    "onCreateCommand": [
-        "./setup.sh",
-        " && ./login-atcoder.sh"
-    ]
+    }
+    // ,"onCreateCommand": "./setup.sh"
+    // " && ./login-atcoder.sh"
 }

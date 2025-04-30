@@ -33,10 +33,10 @@ USER $USER_NAME
 ARG JAVA_VERSION=17.0.8.fx-zulu
 ARG KOTLIN_VERSION=1.8.20
 RUN curl -s "https://get.sdkman.io" | bash
-RUN bash -c "source \"$HOME/.sdkman/bin/sdkman-init.sh\" && \
+RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && \
     sdk i java $JAVA_VERSION && \
     sdk use java $JAVA_VERSION --default && \
-    sdk i kotlin $KOTLIN_VERSION"
+    sdk i kotlin $KOTLIN_VERSION
 
 
 #############
@@ -59,7 +59,7 @@ RUN curl -fsSL https://pyenv.run | bash && \
 # #############
 # add path to custom command directory
 RUN echo "export PATH=\$PATH:/workspace/atcoder-contests/command" >> ~/.bashrc
-RUN echo "[[ -s \"$HOME/.bashrc\" ]]" >> ~/.bash_profile
+RUN echo "[[ -s \"$HOME/.bashrc\" ]] && source $HOME/.bashrc" >> ~/.bash_profile
 
 USER $USER_NAME
 CMD ["/bin/bash"]

@@ -1,3 +1,13 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/home/gitpod/.sdkman/candidates/java/17.0.8.fx-zulu",
+            "default": true
+        }
+    ],
+    "kotlin.java.home": "/home/gitpod/.sdkman/candidates/java/17.0.8.fx-zulu",
+    "java.jdt.ls.java.home": "/home/gitpod/.sdkman/candidates/java/17.0.8.fx-zulu"
 }

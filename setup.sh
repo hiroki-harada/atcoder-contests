@@ -21,8 +21,3 @@ cd gradle && ./gradlew clean build wrap && cd ..
 pip install --upgrade pip
 pip install setuptools
 pip3 install online-judge-tools
-
-#############
-# Post execute
-#############
-./login-atcoder.sh
