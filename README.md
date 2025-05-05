@@ -1,4 +1,16 @@
 # atcoder
+## After Setup dev-contaner
+```bash
+./post-setup.sh
+
+# if .env not exists, execute below and fill ATCODER_USER_NAME
+cp .env_sample .env
+
+# follow setup description
+aclogin
+./login-atcoder.sh
+```
+
 
 
 # document
