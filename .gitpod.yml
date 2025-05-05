@@ -1,27 +1,6 @@
 image:
-  file: .gitpod.Dockerfile
+  file: .devcontainer/Dockerfile
 
 tasks:
-  - name: install java, kotlin
-    command: |
-      echo "y" | sdk install java 17.0.8.fx-zulu # instead of "-y"
-      sdk install kotlin 1.8.20
-      sdk use kotlin 1.8.20 --default
-
-  - name: add path to custom command directory
-    command: |
-      echo "export PATH=\$PATH:/workspace/atcoder-contests/command" >> ~/.bash_profile
-      source ~/.bash_profile
-
-  - name: install oj and login
-    command: |
-      # pyenv install 3.12.3
-      # pip install setuptools
-      pip3 install online-judge-tools
-      ./login-atcoder.sh
-
-vscode:
-  extensions:
-    - fwcd.kotlin
-    - mathiasfrohlich.Kotlin
-    - vscjava.vscode-java-pack
+  - name: setup script
+    command: ./setup.sh
