@@ -868,6 +868,14 @@ aclogin
 | B: Ticket Gate Log                            | G    | 単純ループ | 2025/03/15 | ---------- |
 | C: Variety Split Easy                         | F-   | 単純ループ | 2025/03/15 | ---------- |
 
+
+| [No. 406](https://atcoder.jp/contests/abc406) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Not Acceptable                             | G-   | 計算            | 2025/05/17 | ---------- |
+| B: Product Calculator                         | G+   | 単純ループ/工夫 | 2025/05/17 | ---------- |
+| C:                                            |      |                 | 2025/05/17 |            |
+| D:                                            |      |                 | 2025/05/17 |            |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
