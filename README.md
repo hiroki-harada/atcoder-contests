@@ -1,4 +1,16 @@
 # atcoder
+## After Setup dev-contaner
+```bash
+./post-setup.sh
+
+# if .env not exists, execute below and fill ATCODER_USER_NAME
+cp .env_sample .env
+
+# follow setup description
+aclogin
+./login-atcoder.sh
+```
+
 
 
 # document
@@ -855,6 +867,20 @@
 | A: Thermometer                                | G-   | 文字列操作 | 2025/03/15 | ---------- |
 | B: Ticket Gate Log                            | G    | 単純ループ | 2025/03/15 | ---------- |
 | C: Variety Split Easy                         | F-   | 単純ループ | 2025/03/15 | ---------- |
+
+
+| [No. 406](https://atcoder.jp/contests/abc406) | rank | type            | tried at   | ---------- |
+| --------------------------------------------- | ---- | --------------- | ---------- | ---------- |
+| A: Not Acceptable                             | G-   | 計算            | 2025/05/17 | ---------- |
+| B: Product Calculator                         | G+   | 単純ループ/工夫 | 2025/05/17 | ---------- |
+
+
+| [No. 419](https://atcoder.jp/contests/abc419) | rank | type             | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------------- | ---------- | ---------- |
+| A: AtCoder Language                           | G-   | 単純ループ       | 2025/08/16 | ---------- |
+| B: Get Min                                    | G-   | 単純ループ       | 2025/08/16 | ---------- |
+| C: King's Summit                              | F-   | チェビシェフ距離 | 2025/08/16 |            |
+| D: Substr Swap                                | F-   | いもす法？       | 2025/08/16 |            |
 
 -----
 
