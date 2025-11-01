@@ -882,6 +882,12 @@ aclogin
 | C: King's Summit                              | F-   | チェビシェフ距離 | 2025/08/16 |            |
 | D: Substr Swap                                | F-   | いもす法？       | 2025/08/16 |            |
 
+
+| [No. 430](https://atcoder.jp/contests/abc430) | rank | type       | tried at   | ---------- |
+| --------------------------------------------- | ---- | ---------- | ---------- | ---------- |
+| A: Candy Cookie Law                           | G-   | ?          | 2025/11/01 | ---------- |
+| B: Count Subgrid                              | G+   | 単純ループ | 2025/11/01 | ---------- |
+
 -----
 
 | [No. 3xx](https://atcoder.jp/contests/abc3xx) | rank | type | tried at   | ---------- |
