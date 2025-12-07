@@ -1,6 +1,0 @@
-image:
-  file: .devcontainer/Dockerfile
-
-tasks:
-  - name: setup script
-    command: ./setup.sh

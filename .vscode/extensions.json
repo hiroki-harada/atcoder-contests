@@ -3,6 +3,7 @@
         "fwcd.kotlin",
         "mathiasfrohlich.kotlin",
         "vscjava.vscode-java-pack",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "gitpod.gitpod-flex"
     ]
 }

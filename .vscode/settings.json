@@ -4,10 +4,10 @@
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-17",
-            "path": "/home/gitpod/.sdkman/candidates/java/17.0.8.fx-zulu",
+            "path": "/home/gitpod/.sdkman/candidates/java/current",
             "default": true
         }
     ],
-    "kotlin.java.home": "/home/gitpod/.sdkman/candidates/java/17.0.8.fx-zulu",
-    "java.jdt.ls.java.home": "/home/gitpod/.sdkman/candidates/java/17.0.8.fx-zulu"
+    "kotlin.java.home": "/home/gitpod/.sdkman/candidates/java/current",
+    "java.jdt.ls.java.home": "/home/gitpod/.sdkman/candidates/java/current"
 }

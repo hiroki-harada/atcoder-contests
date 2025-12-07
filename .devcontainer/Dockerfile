@@ -58,7 +58,7 @@ RUN curl -fsSL https://pyenv.run | bash && \
 # Others
 # #############
 # add path to custom command directory
-RUN echo "export PATH=\$PATH:/workspace/atcoder-contests/command" >> ~/.bashrc
+RUN echo "export PATH=\$PATH:/workspaces/atcoder-contests/command" >> ~/.bashrc
 RUN echo "[[ -s \"$HOME/.bashrc\" ]] && source $HOME/.bashrc" >> ~/.bash_profile
 
 USER $USER_NAME

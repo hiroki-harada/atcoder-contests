@@ -20,7 +20,7 @@ if [[ $dir = "" ]]; then
   echo "Error : Requires an argument" 1>&2
   exit 1
 elif [ -e ${dir} ]; then
-  echo `Error : ${dir} is already exist` 1>&2
+  echo "Error : ${dir} is already exist" 1>&2
   exit 2
 fi
 
