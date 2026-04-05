@@ -1,5 +1,5 @@
 # atcoder
-## After Setup dev-contaner
+## Setup
 ```bash
 ./post-setup.sh
 
@@ -9,6 +9,20 @@ cp .env_sample .env
 # follow setup description
 aclogin
 ./login-atcoder.sh
+```
+
+## Join the Content
+```bash
+# cd path/to/contests-directory
+$ cd BeginnerContest
+
+# create one
+$ mkd 233
+
+# download test/
+$ pwd
+BeginnerContest/233/a_1
+$ ojd
 ```
 
 
