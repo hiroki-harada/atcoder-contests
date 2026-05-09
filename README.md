@@ -916,6 +916,12 @@ $ ojd
 | C: Comfortable Distance                       | F-   | 単純ループ/工夫 | 2026/03/14 | ---------- |
 
 
+| [No. 457](https://atcoder.jp/contests/abc457) | rank | type        | tried at   | ---------- |
+| --------------------------------------------- | ---- | ----------- | ---------- | ---------- |
+| A: Array                                      | G-   | 計算        | 2026/05/09 | ---------- |
+| B: Arrays                                     | G    | 計算        | 2026/05/09 | ---------- |
+| C: Long Sequence                              | G+   | 累積和/工夫 | 2026/05/09 | ---------- |
+
 -----
 
 | [No. 4xx](https://atcoder.jp/contests/abc4xx) | rank | type | tried at   | ---------- |
