@@ -36,6 +36,6 @@ jobs:
           fi
 
           gh pr create --base ${{env.BASE}} --head ${{env.HEAD}} \
-            --title "monthly update to main($(date +%Y/%m))" --body "自動作成($date)"
+            --title "monthly update to main($(date +%Y/%m))" --body "自動作成($(date))"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
