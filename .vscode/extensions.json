@@ -4,6 +4,7 @@
         "mathiasfrohlich.kotlin",
         "vscjava.vscode-java-pack",
         "yzhang.markdown-all-in-one",
-        "gitpod.gitpod-flex"
+        "gitpod.gitpod-flex",
+        "github.vscode-github-actions"
     ]
 }
